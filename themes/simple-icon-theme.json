@@ -22,6 +22,11 @@
     "config.ts": {"iconPath": "files/ts-config.svg"},
     "test.ts": {"iconPath": "files/ts-test.svg"},
 
+    // C# / DotNet
+    "cs": {"iconPath": "files/cs.svg"},
+    "csproj": {"iconPath": "files/csproj.svg"},
+    "sln": {"iconPath": "files/sln.svg"},
+
     // Folder definitions
     "folder": {"iconPath": "folders/folder.svg"},
     "rootFolder": {"iconPath": "folders/rootFolder.svg"},
@@ -57,6 +62,11 @@
     "test.ts": "test.ts",
     "spec.ts": "test.ts",
     "jest.ts": "test.ts",
+
+    // C# / DotNet
+    "cs": "cs",
+    "csproj": "csproj",
+    "sln": "sln",
   },
 
   "fileNames": {
