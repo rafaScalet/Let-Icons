@@ -6,10 +6,22 @@
   "rootFolderExpanded": "rootFolder",
 
   "iconDefinitions": {
+    // File definitions
     "file": {"iconPath": "files/file.svg"},
     "json": {"iconPath": "files/json.svg"},
     "svg": {"iconPath": "files/svg.svg"},
 
+    // JavaScript
+    "js": {"iconPath": "files/js.svg"},
+    "config.js": {"iconPath": "files/js-config.svg"},
+    "test.js": {"iconPath": "files/js-test.svg"},
+
+    // TypeScript
+    "ts": {"iconPath": "files/ts.svg"},
+    "config.ts": {"iconPath": "files/ts-config.svg"},
+    "test.ts": {"iconPath": "files/ts-test.svg"},
+
+    // Folder definitions
     "folder": {"iconPath": "folders/folder.svg"},
     "rootFolder": {"iconPath": "folders/rootFolder.svg"},
   },
@@ -17,5 +29,22 @@
   "fileExtensions": {
     "svg": "svg",
     "json": "json",
+
+    "js": "js",
+    "config.js": "config.js",
+    "test.js": "test.js",
+    "spec.js": "test.js",
+    "jest.js": "test.js",
+
+    "ts": "ts",
+    "config.ts": "config.ts",
+    "test.ts": "test.ts",
+    "spec.ts": "test.ts",
+    "jest.ts": "test.ts",
+  },
+
+  "fileNames": {
+    "jsconfig.json": "config.js",
+    "tsconfig.json": "config.ts",
   },
 }

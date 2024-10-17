@@ -13,7 +13,7 @@
     "type": "git",
     "directory": "https://github.com/rafaScalet/Let-Icons"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.94.0"
   },
@@ -21,7 +21,9 @@
     "Themes"
   ],
   "scripts": {
-    "build": "vsce package -o bin"
+    "prestart": "rm *.vsix",
+    "start": "vsce package",
+    "poststart": "code --install-extension ./*.vsix --force"
   },
   "contributes": {
     "iconThemes": [
