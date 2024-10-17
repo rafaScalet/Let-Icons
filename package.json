@@ -4,6 +4,11 @@
   "description": "",
   "icon": "assets/let-dev-icon.png",
   "publisher": "Let",
+  "author": {
+    "name": "Rafael Scalet",
+    "email": "rafaelscalet2018@gmail.com",
+    "url": "https://github.com/rafaScalet"
+  },
   "repository": {
     "type": "git",
     "directory": "https://github.com/rafaScalet/Let-Icons"
@@ -34,5 +39,10 @@
   },
   "devDependencies": {
     "vsce": "^2.15.0"
-  }
+  },
+  "keywords": [
+    "let",
+    "icons",
+    "dev"
+  ]
 }
