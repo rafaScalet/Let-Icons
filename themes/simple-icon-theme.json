@@ -11,6 +11,7 @@
     "tool": {"iconPath": "files/tool.svg"},
     "json": {"iconPath": "files/json.svg"},
     "svg": {"iconPath": "files/svg.svg"},
+    "node": {"iconPath": "files/node.svg"},
 
     // JavaScript
     "js": {"iconPath": "files/js.svg"},
@@ -72,5 +73,12 @@
   "fileNames": {
     "jsconfig.json": "config.js",
     "tsconfig.json": "config.ts",
+
+    // Node
+    "package.json": "node",
+    "package.lock.json": "node",
+    "yarn.lock": "node",
+    "pnpm-lock.yaml": "node",
+    "bun.lockb": "node",
   },
 }
