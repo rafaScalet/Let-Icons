@@ -1,0 +1,38 @@
+{
+  "name": "icons",
+  "displayName": "Let Icons",
+  "description": "",
+  "icon": "assets/let-dev-icon.png",
+  "publisher": "Let",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/rafaScalet/Let-Icons"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "build": "vsce package -o bin"
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+				"id": "let-simple-icons",
+				"label": "Let Simple Icons",
+				"path": "./themes/simple-icon-theme.json"
+      },
+      {
+				"id": "let-fancy-icons",
+				"label": "Let Fancy Icons",
+				"path": "./themes/fancy-icon-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
