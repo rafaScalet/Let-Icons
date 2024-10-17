@@ -1,1 +1,13 @@
-{}
+{
+  "file": "file",
+  "folder": "folder",
+  "folderExpanded": "folder",
+  "rootFolder": "rootFolder",
+  "rootFolderExpanded": "rootFolder",
+
+  "iconDefinitions": {
+    "file": {"iconPath": "files/file.svg"},
+    "folder": {"iconPath": "folders/folder.svg"},
+    "rootFolder": {"iconPath": "folders/rootFolder.svg"}
+  }
+}
