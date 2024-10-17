@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+      "name": "Icons",
+			"path": ".file-icons"
+		},
+		{
+      "name": "RootFolder",
+			"path": ".templates"
+		}
+	],
+	"settings": {}
+}
