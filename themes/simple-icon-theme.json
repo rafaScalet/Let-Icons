@@ -8,6 +8,7 @@
   "iconDefinitions": {
     // File definitions
     "file": {"iconPath": "files/file.svg"},
+    "tool": {"iconPath": "files/tool.svg"},
     "json": {"iconPath": "files/json.svg"},
     "svg": {"iconPath": "files/svg.svg"},
 
@@ -30,12 +31,27 @@
     "svg": "svg",
     "json": "json",
 
+    // Version Managers
+    "tool-versions": "tool",
+    "nvmrc": "tool",
+    "rvmrc": "tool",
+    "sdkmanrc": "tool",
+    "ruby-gemset": "tool",
+    "ruby-version": "tool",
+    "java-version": "tool",
+    "dotnet-version": "tool",
+    "python-version": "tool",
+    "php-version": "tool",
+    "go-version": "tool",
+
+    // JavaScript
     "js": "js",
     "config.js": "config.js",
     "test.js": "test.js",
     "spec.js": "test.js",
     "jest.js": "test.js",
 
+    // TypeScript
     "ts": "ts",
     "config.ts": "config.ts",
     "test.ts": "test.ts",

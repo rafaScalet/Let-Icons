@@ -13,7 +13,7 @@
     "type": "git",
     "directory": "https://github.com/rafaScalet/Let-Icons"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.94.0"
   },
