@@ -7,7 +7,15 @@
 
   "iconDefinitions": {
     "file": {"iconPath": "files/file.svg"},
+    "json": {"iconPath": "files/json.svg"},
+    "svg": {"iconPath": "files/svg.svg"},
+
     "folder": {"iconPath": "folders/folder.svg"},
-    "rootFolder": {"iconPath": "folders/rootFolder.svg"}
-  }
+    "rootFolder": {"iconPath": "folders/rootFolder.svg"},
+  },
+
+  "fileExtensions": {
+    "svg": "svg",
+    "json": "json",
+  },
 }
