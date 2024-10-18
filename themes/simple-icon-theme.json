@@ -15,6 +15,11 @@
 
     "node": {"iconPath": "files/node.svg"},
 
+    // Media
+    "image": {"iconPath": "files/image.svg"},
+    "audio": {"iconPath": "files/audio.svg"},
+    "video": {"iconPath": "files/video.svg"},
+
     // JavaScript
     "js": {"iconPath": "files/js.svg"},
     "config.js": {"iconPath": "files/js-config.svg"},
@@ -66,6 +71,39 @@
     "rpm": "compact",
     "aur": "compact",
     "obs": "compact",
+
+    // Media
+    // audio
+    "mp3": "audio",
+		"wav": "audio",
+		"ogg": "audio",
+
+    // video
+		"mp4": "video",
+		"webm": "video",
+		"mkv": "video",
+		"flv": "video",
+		"avi": "video",
+		"mov": "video",
+		"wmv": "video",
+		"mpg": "video",
+		"mpeg": "video",
+		"m4v": "video",
+
+    // image
+		"png": "image",
+		"jpg": "image",
+		"jpeg": "image",
+		"gif": "image",
+		"ico": "image",
+		"icns": "image",
+		"bmp": "image",
+		"tiff": "image",
+		"webp": "image",
+		"avif": "image",
+		"heif": "image",
+		"heic": "image",
+
 
     // Version Managers
     "tool-versions": "tool",
