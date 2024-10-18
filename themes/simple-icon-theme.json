@@ -6,7 +6,6 @@
   "rootFolderExpanded": "rootFolder",
 
   "iconDefinitions": {
-
     // File definitions
     "file": {"iconPath": "files/file.svg"},
     "tool": {"iconPath": "files/tool.svg"},
@@ -42,6 +41,10 @@
     "class": {"iconPath": "files/java-class.svg"},
     "mf": {"iconPath": "files/manifest.svg"},
 
+    // Terminal
+    "shell": {"iconPath": "files/shell.svg"},
+    "powershell": {"iconPath": "files/powershell.svg"},
+
     // Folder definitions
     "folder": {"iconPath": "folders/folder.svg"},
     "rootFolder": {"iconPath": "folders/rootFolder.svg"},
@@ -74,6 +77,29 @@
     "rpm": "compact",
     "aur": "compact",
     "obs": "compact",
+
+    // Terminal
+    // shell
+    "sh": "shell",
+		"bash": "shell",
+		"zsh": "shell",
+		"fish": "shell",
+		"bashrc": "shell",
+		"bash_profile": "shell",
+		"bash_aliases": "shell",
+
+    // powershell/cmd
+    "bat": "powershell",
+		"cmd": "powershell",
+		"ps1": "powershell",
+		"psm1": "powershell",
+		"psd1": "powershell",
+		"ps1xml": "powershell",
+		"pssc": "powershell",
+		"psrc": "powershell",
+		"bin": "binary",
+		"dat": "binary",
+		"exe": "binary",
 
     // Media
     // audio
