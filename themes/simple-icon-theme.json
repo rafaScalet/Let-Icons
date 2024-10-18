@@ -6,11 +6,13 @@
   "rootFolderExpanded": "rootFolder",
 
   "iconDefinitions": {
+
     // File definitions
     "file": {"iconPath": "files/file.svg"},
     "tool": {"iconPath": "files/tool.svg"},
     "json": {"iconPath": "files/json.svg"},
     "svg": {"iconPath": "files/svg.svg"},
+    "vscode": {"iconPath": "files/vscode.svg"},
     "compact": {"iconPath": "files/compact.svg"},
 
     "node": {"iconPath": "files/node.svg"},
@@ -46,6 +48,7 @@
   },
 
   "fileExtensions": {
+    "vscodeignore": "vscode",
     "svg": "svg",
     "json": "json",
 
@@ -160,5 +163,12 @@
     "yarn.lock": "node",
     "pnpm-lock.yaml": "node",
     "bun.lockb": "node",
+
+    // Vs Code
+    "settings.json": "vscode",
+    "tasks.json": "vscode",
+    "launch.json": "vscode",
+    "extensions.json": "vscode",
+    "keybindings.json": "vscode",
   },
 }
