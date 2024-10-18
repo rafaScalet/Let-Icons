@@ -11,6 +11,8 @@
     "tool": {"iconPath": "files/tool.svg"},
     "json": {"iconPath": "files/json.svg"},
     "svg": {"iconPath": "files/svg.svg"},
+    "compact": {"iconPath": "files/compact.svg"},
+
     "node": {"iconPath": "files/node.svg"},
 
     // JavaScript
@@ -27,6 +29,11 @@
     "cs": {"iconPath": "files/cs.svg"},
     "csproj": {"iconPath": "files/csproj.svg"},
     "sln": {"iconPath": "files/sln.svg"},
+
+    // Java
+    "java": {"iconPath": "files/java.svg"},
+    "class": {"iconPath": "files/java-class.svg"},
+    "mf": {"iconPath": "files/manifest.svg"},
 
     // Folder definitions
     "folder": {"iconPath": "folders/folder.svg"},
@@ -68,11 +75,23 @@
     "cs": "cs",
     "csproj": "csproj",
     "sln": "sln",
+
+    // Java
+    "java": "java",
+    "jsp": "java",
+    "class": "class",
+    "jmod": "class",
+    "mf": "mf",
+    "jar": "compact",
+    "war": "compact",
+    "ear": "compact",
   },
 
   "fileNames": {
     "jsconfig.json": "config.js",
     "tsconfig.json": "config.ts",
+
+    "manifest": "mf",
 
     // Node
     "package.json": "node",
