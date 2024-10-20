@@ -12,6 +12,14 @@
     "json": {"iconPath": "files/json.svg"},
     "svg": {"iconPath": "files/svg.svg"},
     "vscode": {"iconPath": "files/vscode.svg"},
+    "md": {"iconPath": "files/md.svg"},
+    "yaml": {"iconPath": "files/yaml.svg"},
+    "env": {"iconPath": "files/env.svg"},
+    "http": {"iconPath": "files/http.svg"},
+    "config": {"iconPath": "files/config.svg"},
+    "xml": {"iconPath": "files/xml.svg"},
+    "git": {"iconPath": "files/git.svg"},
+    "license": {"iconPath": "files/license.svg"},
     "compact": {"iconPath": "files/compact.svg"},
 
     "node": {"iconPath": "files/node.svg"},
@@ -40,6 +48,7 @@
     "java": {"iconPath": "files/java.svg"},
     "class": {"iconPath": "files/java-class.svg"},
     "mf": {"iconPath": "files/manifest.svg"},
+    "properties": {"iconPath": "files/properties.svg"},
 
     // Terminal
     "shell": {"iconPath": "files/shell.svg"},
@@ -51,9 +60,27 @@
   },
 
   "fileExtensions": {
+    // Misc
     "vscodeignore": "vscode",
     "svg": "svg",
+    "http": "http",
+    "config": "config",
+    "editorconfig": "config",
     "json": "json",
+    "xml": "xml",
+    "env": "env",
+
+    // git
+    "gitignore": "git",
+    "gitattributes": "git",
+
+    // Yaml
+    "yaml": "yaml",
+    "yml": "yaml",
+
+    // Markdown
+    "md": "md",
+    "mdx": "md",
 
     // Compact and Pack
     "zip": "compact",
@@ -97,9 +124,6 @@
 		"ps1xml": "powershell",
 		"pssc": "powershell",
 		"psrc": "powershell",
-		"bin": "binary",
-		"dat": "binary",
-		"exe": "binary",
 
     // Media
     // audio
@@ -175,6 +199,7 @@
     "jar": "compact",
     "war": "compact",
     "ear": "compact",
+    "properties": "properties",
   },
 
   "fileNames": {
@@ -182,6 +207,9 @@
     "tsconfig.json": "config.ts",
 
     "manifest": "mf",
+
+    "license": "license",
+    "license.md": "license",
 
     // Node
     "package.json": "node",
