@@ -30,6 +30,7 @@
     // Office
     "table": {"iconPath": "files/table.svg"},
     "document": {"iconPath": "files/document.svg"},
+    "presentation": {"iconPath": "files/presentation.svg"},
 
     // Media
     "image": {"iconPath": "files/image.svg"},
@@ -137,6 +138,17 @@
     "ott": "document",
     "pages": "document",
     "gdoc": "document",
+
+    //presentations
+    "ppt": "presentation",
+    "pptx": "presentation",
+    "pps": "presentation",
+    "ppsx": "presentation",
+    "pot": "presentation",
+    "potx": "presentation",
+    "odp": "presentation",
+    "otp": "presentation",
+    "key": "presentation",
 
     // Terminal
     // shell
