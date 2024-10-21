@@ -21,6 +21,9 @@
     "git": {"iconPath": "files/git.svg"},
     "license": {"iconPath": "files/license.svg"},
     "compact": {"iconPath": "files/compact.svg"},
+    "docker": {"iconPath": "files/docker.svg"},
+    "docker-compose": {"iconPath": "files/docker-compose.svg"},
+    "sql": {"iconPath": "files/sql.svg"},
 
     "node": {"iconPath": "files/node.svg"},
 
@@ -69,6 +72,7 @@
     "json": "json",
     "xml": "xml",
     "env": "env",
+    "sql": "sql",
 
     // git
     "gitignore": "git",
@@ -208,8 +212,16 @@
 
     "manifest": "mf",
 
+    // License
     "license": "license",
     "license.md": "license",
+
+    // Docker and Compose
+    "dockerfile": "docker",
+    "docker-compose.yml": "docker-compose",
+    "docker-compose.yaml": "docker-compose",
+    "compose.yml": "docker-compose",
+    "compose.yaml": "docker-compose",
 
     // Node
     "package.json": "node",
