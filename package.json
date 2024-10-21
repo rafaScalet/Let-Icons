@@ -1,9 +1,9 @@
 {
-  "name": "icons",
+  "name": "let-icons",
   "displayName": "Let Icons",
   "description": "",
   "icon": "assets/let-dev-icon.png",
-  "publisher": "Let",
+  "publisher": "scalet",
   "author": {
     "name": "Rafael Scalet",
     "email": "rafaelscalet2018@gmail.com",
@@ -13,7 +13,7 @@
     "type": "git",
     "directory": "https://github.com/rafaScalet/Let-Icons"
   },
-  "version": "0.0.13",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.94.0"
   },
