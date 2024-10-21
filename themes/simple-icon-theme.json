@@ -24,8 +24,13 @@
     "docker": {"iconPath": "files/docker.svg"},
     "docker-compose": {"iconPath": "files/docker-compose.svg"},
     "sql": {"iconPath": "files/sql.svg"},
+    "txt": {"iconPath": "files/text.svg"},
 
     "node": {"iconPath": "files/node.svg"},
+
+    // Web
+    "html": {"iconPath": "files/html.svg"},
+    "css": {"iconPath": "files/css.svg"},
 
     // Office
     "table": {"iconPath": "files/table.svg"},
@@ -78,10 +83,15 @@
     "xml": "xml",
     "env": "env",
     "sql": "sql",
+    "txt": "txt",
 
     // git
     "gitignore": "git",
     "gitattributes": "git",
+
+    // Web
+    "html": "html",
+    "css": "css",
 
     // Yaml
     "yaml": "yaml",
