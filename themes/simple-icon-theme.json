@@ -29,6 +29,7 @@
 
     // Office
     "table": {"iconPath": "files/table.svg"},
+    "document": {"iconPath": "files/document.svg"},
 
     // Media
     "image": {"iconPath": "files/image.svg"},
@@ -124,6 +125,18 @@
     "ots": "table",
     "numbers": "table",
     "gsheet": "table",
+
+    //documents
+    "doc": "document",
+    "docx": "document",
+    "docm": "document",
+    "dot": "document",
+    "dotx": "document",
+    "dotm": "document",
+    "odt": "document",
+    "ott": "document",
+    "pages": "document",
+    "gdoc": "document",
 
     // Terminal
     // shell
