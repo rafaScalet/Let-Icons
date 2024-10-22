@@ -320,10 +320,10 @@
     "bun.lockb": "node",
 
     // Vs Code
-    "settings.json": "vscode",
-    "tasks.json": "vscode",
-    "launch.json": "vscode",
-    "extensions.json": "vscode",
-    "keybindings.json": "vscode",
+    ".vscode/settings.json": "vscode",
+    ".vscode/tasks.json": "vscode",
+    ".vscode/launch.json": "vscode",
+    ".vscode/extensions.json": "vscode",
+    ".vscode/keybindings.json": "vscode",
   },
 }
