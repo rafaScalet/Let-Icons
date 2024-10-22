@@ -224,7 +224,6 @@
 		"heif": "image",
 		"heic": "image",
 
-
     // Version Managers
     "tool-versions": "tool",
     "nvmrc": "tool",
@@ -308,7 +307,11 @@
 
     // Node
     "jsconfig.json": "jsconfig.json",
+
     "tsconfig.json": "tsconfig.json",
+    "tsconfig.spec.json": "tsconfig.json",
+    "tsconfig.dev.json": "tsconfig.json",
+    "tsconfig.app.json": "tsconfig.json",
 
     "package.json": "node",
     "package-lock.json": "node",
