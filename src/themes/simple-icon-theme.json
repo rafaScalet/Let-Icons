@@ -310,7 +310,7 @@
     "tsconfig.json": "tsconfig.json",
 
     "package.json": "node",
-    "package.lock.json": "node",
+    "package-lock.json": "node",
     "yarn.lock": "node",
     "pnpm-lock.yaml": "node",
     "bun.lockb": "node",
