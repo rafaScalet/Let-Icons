@@ -26,8 +26,6 @@
     "sql": {"iconPath": "files/sql.svg"},
     "txt": {"iconPath": "files/text.svg"},
 
-    "node": {"iconPath": "files/node.svg"},
-
     // Web
     "html": {"iconPath": "files/html.svg"},
     "css": {"iconPath": "files/css.svg"},
@@ -42,15 +40,28 @@
     "audio": {"iconPath": "files/audio.svg"},
     "video": {"iconPath": "files/video.svg"},
 
-    // JavaScript
+    // JavaScript Ecosystem
+    "node": {"iconPath": "files/node.svg"},
+
+    "jsconfig.json": {"iconPath": "files/jsconfig.json.svg"},
+    "tsconfig.json": {"iconPath": "files/tsconfig.json.svg"},
+
     "js": {"iconPath": "files/js.svg"},
     "config.js": {"iconPath": "files/js-config.svg"},
     "test.js": {"iconPath": "files/js-test.svg"},
 
-    // TypeScript
     "ts": {"iconPath": "files/ts.svg"},
+    "def.ts": {"iconPath": "files/ts-def.svg"},
     "config.ts": {"iconPath": "files/ts-config.svg"},
     "test.ts": {"iconPath": "files/ts-test.svg"},
+
+    "jsx": {"iconPath": "files/react-js.svg"},
+    "config.jsx": {"iconPath": "files/react-js-config.svg"},
+    "test.jsx": {"iconPath": "files/react-js-test.svg"},
+
+    "tsx": {"iconPath": "files/react-ts.svg"},
+    "config.tsx": {"iconPath": "files/react-ts-config.svg"},
+    "test.tsx": {"iconPath": "files/react-ts-test.svg"},
 
     // C# / DotNet
     "cs": {"iconPath": "files/cs.svg"},
@@ -226,19 +237,42 @@
     "php-version": "tool",
     "go-version": "tool",
 
-    // JavaScript
+    // JavaScript Ecosystem
     "js": "js",
+    "mjs": "js",
+    "cjs": "js",
     "config.js": "config.js",
+    "config.mjs": "config.js",
+    "config.cjs": "config.js",
     "test.js": "test.js",
     "spec.js": "test.js",
     "jest.js": "test.js",
+    "test.mjs": "test.js",
+    "spec.mjs": "test.js",
+    "jest.mjs": "test.js",
+    "test.cjs": "test.js",
+    "spec.cjs": "test.js",
+    "jest.cjs": "test.js",
 
-    // TypeScript
     "ts": "ts",
     "config.ts": "config.ts",
     "test.ts": "test.ts",
     "spec.ts": "test.ts",
     "jest.ts": "test.ts",
+    "d.ts": "def.ts",
+    "def.ts": "def.ts",
+
+    "jsx": "jsx",
+    "config.jsx": "config.jsx",
+    "test.jsx": "test.jsx",
+    "spec.jsx": "test.jsx",
+    "jest.jsx": "test.jsx",
+
+    "tsx": "tsx",
+    "config.tsx": "config.tsx",
+    "test.tsx": "test.tsx",
+    "spec.tsx": "test.tsx",
+    "jest.tsx": "test.tsx",
 
     // C# / DotNet
     "cs": "cs",
@@ -258,9 +292,6 @@
   },
 
   "fileNames": {
-    "jsconfig.json": "config.js",
-    "tsconfig.json": "config.ts",
-
     "manifest": "mf",
 
     // License
@@ -275,6 +306,9 @@
     "compose.yaml": "docker-compose",
 
     // Node
+    "jsconfig.json": "jsconfig.json",
+    "tsconfig.json": "tsconfig.json",
+
     "package.json": "node",
     "package.lock.json": "node",
     "yarn.lock": "node",

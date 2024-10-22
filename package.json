@@ -2,7 +2,7 @@
   "name": "let-icons",
   "displayName": "Let Icons",
   "description": "",
-  "icon": "assets/let-dev-icon.png",
+  "icon": "src/assets/let-dev-icon.png",
   "publisher": "scalet",
   "author": {
     "name": "Rafael Scalet",
@@ -13,7 +13,7 @@
     "type": "git",
     "directory": "https://github.com/rafaScalet/Let-Icons"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.94.0"
   },
@@ -30,12 +30,12 @@
       {
 				"id": "let-simple-icons",
 				"label": "Let Simple Icons",
-				"path": "./themes/simple-icon-theme.json"
+				"path": "./src/themes/simple-icon-theme.json"
       },
       {
 				"id": "let-fancy-icons",
 				"label": "Let Fancy Icons",
-				"path": "./themes/fancy-icon-theme.json"
+				"path": "./src/themes/fancy-icon-theme.json"
       }
     ]
   },
