@@ -1,6 +1,5 @@
-.vscode/**
-.vscode-test/**
-.gitignore
-.editorconfig
-.tool-versions
-.file-icons
+**/*
+
+!package.json
+!LICENSE
+!src
