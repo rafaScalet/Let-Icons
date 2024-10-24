@@ -1,29 +1,92 @@
 {
   "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "dockerfile": "*compose.yml, *compose.yaml",
-    "license": "license.md, license.txt",
-    ".jsx": "*.jsx, *.tsx, *.js, *.ts, *.cjs, *.mjs",
-    "package-lock.json": "yarn.lock, pnpm-lock.yaml, bun.lockb",
-    "package.json": ".jsx, package-lock.json, tsconfig.json, jsconfig.json",
-    ".json": ".xml, .sql",
-    ".yml": ".yaml",
-    ".html": ".css",
-    ".editorconfig": ".config",
-    ".md": ".mdx",
-    ".gitignore": ".git*",
+    // Replacing the Default Values
+    "*.ts":"","*.js":"","*.jsx":"","*.tsx":"","tsconfig.json":"",".editorconfig": "",
+
+    // Javascript
+    ".ts": "*.ts", // Typescript files
+    ".cjs": "*.cjs", // CommunJS files
+    ".mjs": "*.mjs", // ESmodules files
+    ".jsx": "*.jsx", //
+    ".tsx": "*.tsx", //
+    "jsconfig.json": "tsconfig.json", // Config files
+    "package.json": "package-lock.json, pnpm-lock.yaml, yarn.lock, bun.lockb", // Project files
+    ".js": "*.js, .ts, .cjs, .mjs, .jsx, .tsx, .jsconfig.json, package.json",
+
+    // Java
+    ".class": ".jmod", // Compiled class
+    ".jar": ".war, .ear", // Package files
+    ".mf": "manifest", // Manifest files
+    ".java": ".class, .jsp, .jar, .mf, pom.xml, .gradle, .properties",
+
+    // DotNet
     ".cs": ".csproj, .sln",
-    ".zip": ".7z, .appimage, .aur, .bz2, .deb, .exe, .flatpak, .gz, .iso, .obs, .pkg, .ppa, .rar, .rpm, .snap, .tar, .tgz, .vsix, .xz, .zst",
-    ".java": ".class, .ear, .jar, .jmod, .jsp, .mf, .properties, .war, manifest, mvnw*, pom.xml, .gradle, gradlew*",
-    ".doc": ".docm, .docx, .dot, .dotm, .dotx, .gdoc, .odt, .ott, .pages",
-    ".ppt": ".pptx, .pps, .ppsx, .pot, .potx, .otp, .odp, .key",
-    ".xls": ".xlsx, .xlsb, .xlsm, .xltm, .xltx, .ods, .ots, .numbers, .gsheet",
-    ".mp3": ".ogg, .wav",
-    ".png": ".avif, .bmp, .gif, .heic, .heif, .icns, .ico, .jpeg, .jpg, .tiff, .webp",
-    ".mp4": ".avi, .flv, .m4v, .mkv, .mov, .mpeg, .mpg, .webm, .wmv",
-    ".tool-versions": "*version, *mrc, .sdkmanrc, .ruby-gemset",
-    ".sh": ".bash*, .fish, .zsh",
+
+    // Maven
+    "pom.xml": "mvnw, mvnw.cmd, mvnw.sh",
+
+    // Gradle
+    ".gradle": "gradlew, gradlew.bat, gradlew.sh",
+
+    // Docker
+    "dockerfile": "*compose.yml, *compose.yaml",
+
+    // CMD/PowerShell
     ".bat": ".ps*, .cmd",
+
+    // Shell
+    ".sh": ".bash*, .fish, .zsh",
+
+    // Data
+    ".json": ".sql, .xml, .csv",
+
+    // Version Managers
+    ".tool-versions": ".*-version, .nvmrc, .rvmrc, .sdkmanrc, .ruby-gemset",
+
+    // Git
+    ".gitignore": ".gitkeep, .gitattributes",
+
+    // Packages and Compact Files
+    ".zip": ".7z, .appimage, .aur, .bz2, .deb, .exe, .flatpak, .gz, .iso, .obs, .pkg, .ppa, .rar, .rpm, .snap, .tar, .tgz, .vsix, .xz, .zst, .jar, .war, .ear",
+
+    // Audios
+    ".mp3": ".ogg, .wav",
+
+    // Images (BitMap)
+    ".png": ".avif, .bmp, .gif, .heic, .heif, .icns, .ico, .jpeg, .jpg, .tiff, .webp",
+
+    // Images (Vector)
+    ".svg": ".ai, .eps, .cdr, .wmf, .dxf",
+
+    // Videos
+    ".mp4": ".avi, .flv, .m4v, .mkv, .mov, .mpeg, .mpg, .webm, .wmv",
+
+    // Documents
+    ".doc": ".docm, .docx, .dot, .dotm, .dotx, .gdoc, .odt, .ott, .pages",
+
+    // Tables
+    ".xls": ".xlsx, .xlsb, .xlsm, .xltm, .xltx, .ods, .ots, .numbers, .gsheet, .csv",
+
+    // Presentations
+    ".ppt": ".pptx, .pps, .ppsx, .pot, .potx, .otp, .odp, .key",
+
+    // License
+    "license": "license.*",
+
+    // Markdown
+    ".md": ".mdx",
+
+    // Yaml
+    ".yaml": ".yml",
+
+    // Web
+    ".html": ".css",
+
+    // API test
+    ".http": ".rest, .web, .rc",
+
+    // Config
+    ".config": ".editorconfig",
   }
 }
