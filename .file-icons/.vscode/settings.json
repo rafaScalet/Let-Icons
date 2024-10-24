@@ -47,6 +47,9 @@
     // Git
     ".gitignore": ".gitkeep, .gitattributes",
 
+    // Diagrams
+    ".dio": ".drawio*",
+
     // Packages and Compact Files
     ".zip": ".7z, .appimage, .aur, .bz2, .deb, .exe, .flatpak, .gz, .iso, .obs, .pkg, .ppa, .rar, .rpm, .snap, .tar, .tgz, .vsix, .xz, .zst, .jar, .war, .ear",
 
@@ -81,7 +84,7 @@
     ".yaml": ".yml",
 
     // Web
-    ".html": ".css",
+    ".html": ".css, .php, .scss",
 
     // API test
     ".http": ".rest, .web, .rc",

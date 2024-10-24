@@ -25,10 +25,13 @@
     "docker-compose": {"iconPath": "files/docker-compose.svg"},
     "sql": {"iconPath": "files/sql.svg"},
     "txt": {"iconPath": "files/text.svg"},
+    "diagram": {"iconPath": "files/diagram.svg"},
 
     // Web
     "html": {"iconPath": "files/html.svg"},
     "css": {"iconPath": "files/css.svg"},
+    "php": {"iconPath": "files/php.svg"},
+    "scss": {"iconPath": "files/scss.svg"},
 
     // Office
     "table": {"iconPath": "files/table.svg"},
@@ -92,6 +95,12 @@
     "txt": "txt",
     "env": "env",
 
+    // Diagrams
+    "dio": "diagram",
+    "drawio": "diagram",
+    "drawio.png": "diagram",
+    "drawio.svg": "diagram",
+
     // API test
     "http": "http",
     "web": "http",
@@ -116,6 +125,8 @@
     // Web
     "html": "html",
     "css": "css",
+    "php": "php",
+    "scss": "scss",
 
     // Yaml
     "yaml": "yaml",
