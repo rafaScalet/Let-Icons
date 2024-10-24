@@ -73,6 +73,9 @@
     "class": {"iconPath": "files/java-class.svg"},
     "mf": {"iconPath": "files/manifest.svg"},
     "properties": {"iconPath": "files/properties.svg"},
+    "mvn": {"iconPath": "files/maven.svg"},
+    "gradle": {"iconPath": "files/gradle.svg"},
+    "gradle.kts": {"iconPath": "files/gradle.svg"},
 
     // Terminal
     "shell": {"iconPath": "files/shell.svg"},
@@ -289,10 +292,18 @@
     "war": "compact",
     "ear": "compact",
     "properties": "properties",
+    "gradle": "gradle",
   },
 
   "fileNames": {
+    // Java
     "manifest": "mf",
+    "mvnw": "mvn",
+    "mvnw.sh": "mvn",
+    "mvnw.cmd": "mvn",
+    "pom.xml": "mvn",
+    "gradlew": "gradle",
+    "gradlew.bat": "gradle",
 
     // License
     "license": "license",
