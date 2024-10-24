@@ -26,6 +26,7 @@
     "sql": {"iconPath": "files/sql.svg"},
     "txt": {"iconPath": "files/text.svg"},
     "diagram": {"iconPath": "files/diagram.svg"},
+    "readme": {"iconPath": "files/readme.svg"},
 
     // Web
     "html": {"iconPath": "files/html.svg"},
@@ -338,6 +339,11 @@
     "license": "license",
     "license.md": "license",
     "license.txt": "license",
+
+    // Read Me
+    "readme": "readme",
+    "readme.md": "readme",
+    "readme.txt": "readme",
 
     // Docker and Compose
     "dockerfile": "docker",
