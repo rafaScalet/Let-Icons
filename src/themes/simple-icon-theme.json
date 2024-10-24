@@ -89,15 +89,24 @@
   "fileExtensions": {
     // Misc
     "vscodeignore": "vscode",
-    "svg": "svg",
+    "txt": "txt",
+    "env": "env",
+
+    // API test
     "http": "http",
+    "web": "http",
+    "rest": "http",
+    "rc": "http",
+
+    // Config
     "config": "config",
     "editorconfig": "config",
+
+    // Data
     "json": "json",
     "xml": "xml",
-    "env": "env",
     "sql": "sql",
-    "txt": "txt",
+    "csv": "table",
 
     // git
     "gitignore": "git",
@@ -213,7 +222,7 @@
 		"mpeg": "video",
 		"m4v": "video",
 
-    // image
+    // image (BitMap)
 		"png": "image",
 		"jpg": "image",
 		"jpeg": "image",
@@ -226,6 +235,14 @@
 		"avif": "image",
 		"heif": "image",
 		"heic": "image",
+
+    // image (Vector)
+    "svg": "svg",
+    "ai": "svg",
+    "eps": "svg",
+    "cdr": "svg",
+    "wmf": "svg",
+    "dxf": "svg",
 
     // Version Managers
     "tool-versions": "tool",
@@ -303,11 +320,13 @@
     "mvnw.cmd": "mvn",
     "pom.xml": "mvn",
     "gradlew": "gradle",
+    "gradlew.sh": "gradle",
     "gradlew.bat": "gradle",
 
     // License
     "license": "license",
     "license.md": "license",
+    "license.txt": "license",
 
     // Docker and Compose
     "dockerfile": "docker",
