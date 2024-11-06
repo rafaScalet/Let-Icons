@@ -24,6 +24,11 @@
     // DotNet
     ".cs": ".csproj, .sln",
 
+    // Python
+    "pipfile": "pipfile.lock", // pipenv
+    "poetry.lock": "pyproject.toml", // poetry
+    ".py": "pipfile, poetry.lock, requirements.txt",
+
     // Maven
     "pom.xml": "mvnw, mvnw.cmd, mvnw.sh",
 
@@ -85,7 +90,10 @@
     "readme": "readme.*",
 
     // Markdown
-    ".md": ".mdx",
+    ".md": ".mdx, .rst, .ipynb",
+
+    // Environment
+    ".env": ".venv",
 
     // Yaml
     ".yaml": ".yml",
@@ -97,7 +105,7 @@
     ".http": ".rest, .web, .rc",
 
     // Config
-    ".config": ".editorconfig",
+    ".config": ".editorconfig, .cfg, .ini, .lock",
 
     // VsCode
     ".vscodeignore": ".code-workspace"

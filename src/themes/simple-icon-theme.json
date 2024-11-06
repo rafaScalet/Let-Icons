@@ -92,6 +92,9 @@
     "gradle": {"iconPath": "files/gradle.svg"},
     "gradle.kts": {"iconPath": "files/gradle.svg"},
 
+    // Python
+    "python": {"iconPath": "files/python.svg"},
+
     // Terminal
     "shell": {"iconPath": "files/shell.svg"},
     "powershell": {"iconPath": "files/powershell.svg"},
@@ -104,9 +107,12 @@
   "fileExtensions": {
     // Misc
     "txt": "txt",
-    "env": "env",
     "toml": "toml",
     "dockerignore": "docker-ignore",
+
+    // Environment
+    "env": "env",
+    "venv": "env",
 
     // VsCode
     "vscodeignore": "vscode",
@@ -127,6 +133,9 @@
     // Config
     "config": "config",
     "editorconfig": "config",
+    "cfg": "config",
+    "ini": "config",
+    "lock": "config",
 
     // Data
     "json": "json",
@@ -152,6 +161,8 @@
     // Markdown
     "md": "md",
     "mdx": "md",
+    "rst": "md",
+    "ipynb": "md",
 
     // Compact and Pack
     "zip": "compact",
@@ -376,6 +387,9 @@
     "ear": "compact",
     "properties": "properties",
     "gradle": "gradle",
+
+    // Python
+    "py": "python",
   },
 
   "fileNames": {
@@ -388,6 +402,13 @@
     "gradlew": "gradle",
     "gradlew.sh": "gradle",
     "gradlew.bat": "gradle",
+
+    // Python
+    "pipfile": "python",
+    "pipfile.lock": "python",
+    "poetry.lock": "python",
+    "pyproject.toml": "python",
+    "requirements.txt": "python",
 
     // License
     "license": "license",
