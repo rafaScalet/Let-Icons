@@ -139,6 +139,7 @@
 
     // Data
     "json": "json",
+    "jsonc": "json",
     "xml": "xml",
     "sql": "sql",
     "csv": "table",
@@ -453,5 +454,15 @@
     ".vscode/launch.json": "vscode",
     ".vscode/extensions.json": "vscode",
     ".vscode/keybindings.json": "vscode",
+
+    // Environments
+		".env.example": "env",
+		".env.local": "env",
+		".env.development": "env",
+		".env.testing": "env",
+		".env.staging": "env",
+		".env.production": "env",
+		".env.build": "env",
+		".env.test": "env",
   },
 }
