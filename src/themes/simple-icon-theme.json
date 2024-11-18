@@ -1,12 +1,15 @@
 {
+  //#region Init
   "file": "file",
   "folder": "folder",
   "folderExpanded": "folder",
   "rootFolder": "rootFolder",
   "rootFolderExpanded": "rootFolder",
+  //#endregion
 
   "iconDefinitions": {
-    // File definitions
+    //#region File definitions
+    //#region Misc
     "file": {"iconPath": "files/file.svg"},
     "tool": {"iconPath": "files/tool.svg"},
     "json": {"iconPath": "files/json.svg"},
@@ -21,70 +24,93 @@
     "xml": {"iconPath": "files/xml.svg"},
     "git": {"iconPath": "files/git.svg"},
     "compact": {"iconPath": "files/compact.svg"},
-    "docker": {"iconPath": "files/docker.svg"},
-    "docker-compose": {"iconPath": "files/docker-compose.svg"},
-    "docker-ignore": {"iconPath": "files/docker-ignore.svg"},
     "sql": {"iconPath": "files/sql.svg"},
     "txt": {"iconPath": "files/text.svg"},
     "diagram": {"iconPath": "files/diagram.svg"},
+    //#endregion
 
+    //#region Docker
+    "docker": {"iconPath": "files/docker.svg"},
+    "docker-compose": {"iconPath": "files/docker-compose.svg"},
+    "docker-ignore": {"iconPath": "files/docker-ignore.svg"},
+    //#endregion
+
+    //#region Headers
     "changelog": {"iconPath": "files/changelog.svg"},
     "license": {"iconPath": "files/license.svg"},
     "readme": {"iconPath": "files/readme.svg"},
+    //endregion
 
-    // Web
+    //#region Web
     "html": {"iconPath": "files/html.svg"},
     "css": {"iconPath": "files/css.svg"},
     "php": {"iconPath": "files/php.svg"},
     "scss": {"iconPath": "files/scss.svg"},
+    //#endregion
 
-    // Office
+    //#region Office
     "table": {"iconPath": "files/table.svg"},
     "document": {"iconPath": "files/document.svg"},
     "presentation": {"iconPath": "files/presentation.svg"},
+    //#endregion
 
-    // Media
+    //#region Media
     "image": {"iconPath": "files/image.svg"},
     "audio": {"iconPath": "files/audio.svg"},
     "video": {"iconPath": "files/video.svg"},
+    //#endregion
 
-    // JavaScript Ecosystem
+    //#region JavaScript Ecosystem
+    //#region Misc
     "vue": {"iconPath": "files/vue.svg"},
     "node": {"iconPath": "files/node.svg"},
+    //#endregion
 
+    //#region Config
     "jsconfig.json": {"iconPath": "files/jsconfig.json.svg"},
     "tsconfig.json": {"iconPath": "files/tsconfig.json.svg"},
+    //#endregion
 
+    //#region JS
     "js": {"iconPath": "files/js.svg"},
     "def.js": {"iconPath": "files/js-def.svg"},
     "config.js": {"iconPath": "files/js-config.svg"},
     "test.js": {"iconPath": "files/js-test.svg"},
     "js.map": {"iconPath": "files/js-map.svg"},
+    //#endregion
 
+    //#region TS
     "ts": {"iconPath": "files/ts.svg"},
     "def.ts": {"iconPath": "files/ts-def.svg"},
     "config.ts": {"iconPath": "files/ts-config.svg"},
     "test.ts": {"iconPath": "files/ts-test.svg"},
     "ts.map": {"iconPath": "files/ts-map.svg"},
+    //#endregion
 
+    //#region JSX
     "jsx": {"iconPath": "files/react-js.svg"},
     "def.jsx": {"iconPath": "files/react-js-def.svg"},
     "config.jsx": {"iconPath": "files/react-js-config.svg"},
     "test.jsx": {"iconPath": "files/react-js-test.svg"},
     "jsx.map": {"iconPath": "files/react-js-map.svg"},
+    //#endregion
 
+    //#region TSX
     "tsx": {"iconPath": "files/react-ts.svg"},
     "def.tsx": {"iconPath": "files/react-ts-def.svg"},
     "config.tsx": {"iconPath": "files/react-ts-config.svg"},
     "test.tsx": {"iconPath": "files/react-ts-test.svg"},
     "tsx.map": {"iconPath": "files/react-ts-map.svg"},
+    //#endregion
+    //#endregion
 
-    // C# / DotNet
+    //#region C# / DotNet
     "cs": {"iconPath": "files/cs.svg"},
     "csproj": {"iconPath": "files/csproj.svg"},
     "sln": {"iconPath": "files/sln.svg"},
+    //#endregion
 
-    // Java
+    //#region Java
     "java": {"iconPath": "files/java.svg"},
     "class": {"iconPath": "files/java-class.svg"},
     "mf": {"iconPath": "files/manifest.svg"},
@@ -92,81 +118,104 @@
     "mvn": {"iconPath": "files/maven.svg"},
     "gradle": {"iconPath": "files/gradle.svg"},
     "gradle.kts": {"iconPath": "files/gradle.svg"},
+    //#endregion
 
-    // Python
+    //#region Python
     "python": {"iconPath": "files/python.svg"},
+    //#endregion
 
-    // Terminal
+    //#region Dart
+    "dart": {"iconPath": "files/dart.svg"},
+    //#endregion
+
+    //#region Terminal
     "shell": {"iconPath": "files/shell.svg"},
     "powershell": {"iconPath": "files/powershell.svg"},
+    //#endregion
+    //#endregion
 
-    // Folder definitions
+    //#region Folder definitions
     "folder": {"iconPath": "folders/folder.svg"},
     "rootFolder": {"iconPath": ""},
+    //#endregion
   },
 
   "fileExtensions": {
-    // Misc
+    //#region Misc
     "txt": "txt",
     "toml": "toml",
-    "dockerignore": "docker-ignore",
+    //#endregion
 
-    // Environment
+    //#region Docker
+    "dockerignore": "docker-ignore",
+    //#endregion
+
+    //#region Environment
     "env": "env",
     "venv": "env",
+    //#endregion
 
-    // VsCode
+    //#region VsCode
     "vscodeignore": "vscode",
     "code-workspace": "vscode",
+    //#endregion
 
-    // Diagrams
+    //#region Diagrams
     "dio": "diagram",
     "drawio": "diagram",
     "drawio.png": "diagram",
     "drawio.svg": "diagram",
+    //#endregion
 
-    // API test
+    //#region API test
     "http": "http",
     "web": "http",
     "rest": "http",
     "rc": "http",
+    //#endregion
 
-    // Config
+    //#region Config
     "config": "config",
     "editorconfig": "config",
     "cfg": "config",
     "ini": "config",
     "lock": "config",
+    //#endregion
 
-    // Data
+    //#region Data
     "json": "json",
     "jsonc": "json",
     "xml": "xml",
     "sql": "sql",
     "csv": "table",
+    //#endregion
 
-    // git
+    //#region git
     "gitignore": "git",
     "gitkeep": "git",
     "gitattributes": "git",
+    //#endregion
 
-    // Web
+    //#region Web
     "html": "html",
     "css": "css",
     "php": "php",
     "scss": "scss",
+    //#endregion
 
-    // Yaml
+    //#region Yaml
     "yaml": "yaml",
     "yml": "yaml",
+    //#endregion
 
-    // Markdown
+    //#region Markdown
     "md": "md",
     "mdx": "md",
     "rst": "md",
     "ipynb": "md",
+    //#endregion
 
-    // Compact and Pack
+    //#region Compact and Pack
     "zip": "compact",
 		"tar": "compact",
 		"gz": "compact",
@@ -188,9 +237,10 @@
     "rpm": "compact",
     "aur": "compact",
     "obs": "compact",
+    //#endregion
 
-    // Office
-    //tables
+    //#region Office
+    //#region Tables
     "xls": "table",
     "xlsx": "table",
     "xlsm": "table",
@@ -201,8 +251,9 @@
     "ots": "table",
     "numbers": "table",
     "gsheet": "table",
+    //#endregion
 
-    //documents
+    //#region Documents
     "doc": "document",
     "docx": "document",
     "docm": "document",
@@ -213,8 +264,9 @@
     "ott": "document",
     "pages": "document",
     "gdoc": "document",
+    //#endregion
 
-    //presentations
+    //#region Presentations
     "ppt": "presentation",
     "pptx": "presentation",
     "pps": "presentation",
@@ -224,9 +276,11 @@
     "odp": "presentation",
     "otp": "presentation",
     "key": "presentation",
+    //#endregion
+    //#endregion
 
-    // Terminal
-    // shell
+    //#region Terminal
+    //#region Shell
     "sh": "shell",
 		"bash": "shell",
 		"zsh": "shell",
@@ -234,8 +288,9 @@
 		"bashrc": "shell",
 		"bash_profile": "shell",
 		"bash_aliases": "shell",
+    //#endregion
 
-    // powershell/cmd
+    //#region powershell/cmd
     "bat": "powershell",
 		"cmd": "powershell",
 		"ps1": "powershell",
@@ -244,14 +299,17 @@
 		"ps1xml": "powershell",
 		"pssc": "powershell",
 		"psrc": "powershell",
+    //#endregion
+    //#endregion
 
-    // Media
-    // audio
+    //#region Media
+    //#region Audio
     "mp3": "audio",
 		"wav": "audio",
 		"ogg": "audio",
+    //#endregion
 
-    // video
+    //#region Video
 		"mp4": "video",
 		"webm": "video",
 		"mkv": "video",
@@ -262,8 +320,9 @@
 		"mpg": "video",
 		"mpeg": "video",
 		"m4v": "video",
+    //#endregion
 
-    // image (BitMap)
+    //#region Image (BitMap)
 		"png": "image",
 		"jpg": "image",
 		"jpeg": "image",
@@ -276,16 +335,19 @@
 		"avif": "image",
 		"heif": "image",
 		"heic": "image",
+    //#endregion
 
-    // image (Vector)
+    //#region Image (Vector)
     "svg": "svg",
     "ai": "svg",
     "eps": "svg",
     "cdr": "svg",
     "wmf": "svg",
     "dxf": "svg",
+    //#endregion
+    //#endregion
 
-    // Version Managers
+    //#region Version Managers
     "tool-versions": "tool",
     "nvmrc": "tool",
     "rvmrc": "tool",
@@ -297,8 +359,10 @@
     "python-version": "tool",
     "php-version": "tool",
     "go-version": "tool",
+    //#endregion
 
-    // JavaScript Ecosystem
+    //#region JavaScript Ecosystem
+    //#region JS
     "js": "js",
     "config.js": "config.js",
     "js.map": "js.map",
@@ -307,7 +371,9 @@
     "jest.js": "test.js",
     "d.js": "def.js",
     "def.js": "def.js",
+    //#endregion
 
+    //#region MJS
     "mjs": "js",
     "config.mjs": "config.js",
     "mjs.map": "js.map",
@@ -316,7 +382,9 @@
     "jest.mjs": "test.js",
     "d.mjs": "def.js",
     "def.mjs": "def.js",
+    //#endregion
 
+    //#region CJS
     "cjs": "js",
     "config.cjs": "config.js",
     "cjs.map": "js.map",
@@ -325,7 +393,9 @@
     "jest.cjs": "test.js",
     "d.cjs": "def.js",
     "def.cjs": "def.js",
+    //#endregion
 
+    //#region TS
     "ts": "ts",
     "config.ts": "config.ts",
     "map.ts": "map.ts",
@@ -334,7 +404,9 @@
     "jest.ts": "test.ts",
     "d.ts": "def.ts",
     "def.ts": "def.ts",
+    //#endregion
 
+    //#region CTS
     "cts": "ts",
     "config.cts": "config.ts",
     "map.cts": "map.ts",
@@ -343,7 +415,9 @@
     "jest.cts": "test.ts",
     "d.cts": "def.ts",
     "def.cts": "def.ts",
+    //#endregion
 
+    //#region MTS
     "mts": "ts",
     "config.mts": "config.ts",
     "map.mts": "map.ts",
@@ -352,7 +426,9 @@
     "jest.mts": "test.ts",
     "d.mts": "def.ts",
     "def.mts": "def.ts",
+    //#endregion
 
+    //#region JSX
     "jsx": "jsx",
     "config.jsx": "config.jsx",
     "jsx.map": "jsx.map",
@@ -361,7 +437,9 @@
     "jest.jsx": "test.jsx",
     "d.jsx": "def.jsx",
     "def.jsx": "def.jsx",
+    //#endregion
 
+    //#region TSX
     "tsx": "tsx",
     "config.tsx": "config.tsx",
     "tsx.map": "tsx.map",
@@ -370,17 +448,22 @@
     "jest.tsx": "test.tsx",
     "d.tsx": "def.tsx",
     "def.tsx": "def.tsx",
+    //#endregion
 
+    //#region Misc
     "tsbuildinfo": "tsconfig.json",
 
     "vue": "vue",
+    //#endregion
+    //#endregion
 
-    // C# / DotNet
+    //#region C# / DotNet
     "cs": "cs",
     "csproj": "csproj",
     "sln": "sln",
+    //#endregion
 
-    // Java
+    //#region Java
     "java": "java",
     "jsp": "java",
     "class": "class",
@@ -391,74 +474,98 @@
     "ear": "compact",
     "properties": "properties",
     "gradle": "gradle",
+    //#endregion
 
-    // Python
+    //#region Python
     "py": "python",
+    //#endregion
   },
 
   "fileNames": {
-    // Java
+    //#region Java
     "manifest": "mf",
+
+    //#region Maven
     "mvnw": "mvn",
     "mvnw.sh": "mvn",
     "mvnw.cmd": "mvn",
     "pom.xml": "mvn",
+    //#endregion
+
+    //#region Gradle
     "gradlew": "gradle",
     "gradlew.sh": "gradle",
     "gradlew.bat": "gradle",
+    //#endregion
+    //#endregion
 
-    // Python
+    //#region Python
     "pipfile": "python",
     "pipfile.lock": "python",
     "poetry.lock": "python",
     "pyproject.toml": "python",
     "requirements.txt": "python",
+    //#endregion
 
-    // License
+    //#region Headers
+    //#region License
     "license": "license",
     "license.md": "license",
     "license.txt": "license",
+    //#endregion
 
-    // Changelog
+    //#region Changelog
     "changelog": "changelog",
     "changelog.md": "changelog",
     "changelog.txt": "changelog",
+    //#endregion
 
-    // Read Me
+    //#region Read Me
     "readme": "readme",
     "readme.md": "readme",
     "readme.txt": "readme",
+    //#endregion
+    //#endregion
 
-    // Docker and Compose
+    //#region Docker
     "dockerfile": "docker",
     "docker-compose.yml": "docker-compose",
     "docker-compose.yaml": "docker-compose",
     "compose.yml": "docker-compose",
     "compose.yaml": "docker-compose",
+    //#endregion
 
-    // Node
+    //#region JavaScript Ecosystem
+    //#region JsConfig
     "jsconfig.json": "jsconfig.json",
+    //#endregion
 
+    //#region TsConfig
     "tsconfig.json": "tsconfig.json",
     "tsconfig.spec.json": "tsconfig.json",
     "tsconfig.dev.json": "tsconfig.json",
     "tsconfig.app.json": "tsconfig.json",
     "tsconfig.node.json": "tsconfig.json",
+    //#endregion
 
+    //#region Manifest (Package)
     "package.json": "node",
     "package-lock.json": "node",
     "yarn.lock": "node",
     "pnpm-lock.yaml": "node",
     "bun.lockb": "node",
+    //#endregion
+    //#endregion
 
-    // Vs Code
+    //#region Vs Code
     ".vscode/settings.json": "vscode",
     ".vscode/tasks.json": "vscode",
     ".vscode/launch.json": "vscode",
     ".vscode/extensions.json": "vscode",
     ".vscode/keybindings.json": "vscode",
+    //#endregion
 
-    // Environments
+    //#region Environments
 		".env.example": "env",
 		".env.local": "env",
 		".env.development": "env",
@@ -467,5 +574,6 @@
 		".env.production": "env",
 		".env.build": "env",
 		".env.test": "env",
+    //#endregion
   },
 }
