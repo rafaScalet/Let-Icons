@@ -49,6 +49,7 @@
     "video": {"iconPath": "files/video.svg"},
 
     // JavaScript Ecosystem
+    "vue": {"iconPath": "files/vue.svg"},
     "node": {"iconPath": "files/node.svg"},
 
     "jsconfig.json": {"iconPath": "files/jsconfig.json.svg"},
@@ -371,6 +372,8 @@
     "def.tsx": "def.tsx",
 
     "tsbuildinfo": "tsconfig.json",
+
+    "vue": "vue",
 
     // C# / DotNet
     "cs": "cs",

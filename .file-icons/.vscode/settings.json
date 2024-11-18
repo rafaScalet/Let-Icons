@@ -13,7 +13,7 @@
     ".tsx": "*.tsx, .tsx.*", // React typescript files
     "jsconfig.json": "tsconfig.json, .tsbuildinfo", // Config files
     "package.json": "package-lock.json, pnpm-lock.yaml, yarn.lock, bun.lockb", // Project files
-    ".js": "*.js, .js.*, .ts, .cjs, .mjs, .jsx, .tsx, .component.html, jsconfig.json, package.json",
+    ".js": "*.js, .js.*, .ts, .cjs, .mjs, .jsx, .tsx, .vue, .component.html, jsconfig.json, package.json",
 
     // Java
     ".class": ".jmod", // Compiled class
@@ -34,6 +34,9 @@
 
     // Gradle
     ".gradle": "gradlew, gradlew.bat, gradlew.sh",
+
+    // Dart
+    ".dart": ".g.dart, .arb, .flutter-plugins, .packages, analisys_options.yaml, pubspec.yaml",
 
     // Docker
     "dockerfile": "*compose.yml, *compose.yaml, .dockerignore",
