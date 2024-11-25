@@ -165,6 +165,7 @@
     "drawio": "diagram",
     "drawio.png": "diagram",
     "drawio.svg": "diagram",
+    "uml": "diagram",
     //#endregion
 
     //#region API test
@@ -172,6 +173,7 @@
     "web": "http",
     "rest": "http",
     "rc": "http",
+    "bru": "http",
     //#endregion
 
     //#region Config
@@ -478,6 +480,10 @@
 
     //#region Python
     "py": "python",
+    //#endregion
+
+    //#region Dart
+    "dart": "dart"
     //#endregion
   },
 

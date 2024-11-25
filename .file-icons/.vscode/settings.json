@@ -48,7 +48,7 @@
     ".sh": ".bash*, .fish, .zsh",
 
     // Data
-    ".json": ".sql, .xml, .csv",
+    ".json": ", .jsonc, .sql, .xml, .csv",
 
     // Version Managers
     ".tool-versions": ".*-version, .nvmrc, .rvmrc, .sdkmanrc, .ruby-gemset",
@@ -57,7 +57,7 @@
     ".gitignore": ".gitkeep, .gitattributes",
 
     // Diagrams
-    ".dio": ".drawio*",
+    ".dio": ".drawio*, .uml",
 
     // Packages and Compact Files
     ".zip": ".7z, .appimage, .aur, .bz2, .deb, .exe, .flatpak, .gz, .iso, .obs, .pkg, .ppa, .rar, .rpm, .snap, .tar, .tgz, .vsix, .xz, .zst, .jar, .war, .ear",
@@ -105,7 +105,7 @@
     ".html": ".css, .php, .scss",
 
     // API test
-    ".http": ".rest, .web, .rc",
+    ".http": ".rest, .web, .rc, .bru",
 
     // Config
     ".config": ".editorconfig, .cfg, .ini, .lock",
