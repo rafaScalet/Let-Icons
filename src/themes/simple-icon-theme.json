@@ -27,6 +27,7 @@
     "sql": {"iconPath": "files/sql.svg"},
     "txt": {"iconPath": "files/text.svg"},
     "diagram": {"iconPath": "files/diagram.svg"},
+    "prisma": {"iconPath": "files/prisma.svg"},
     //#endregion
 
     //#region Docker
@@ -126,6 +127,7 @@
 
     //#region Dart
     "dart": {"iconPath": "files/dart.svg"},
+    "flutter": {"iconPath": "files/flutter.svg"},
     //#endregion
 
     //#region Terminal
@@ -190,6 +192,7 @@
     "xml": "xml",
     "sql": "sql",
     "csv": "table",
+    "prisma": "prisma",
     //#endregion
 
     //#region git
@@ -371,8 +374,6 @@
     "test.js": "test.js",
     "spec.js": "test.js",
     "jest.js": "test.js",
-    "d.js": "def.js",
-    "def.js": "def.js",
     //#endregion
 
     //#region MJS
@@ -382,8 +383,6 @@
     "test.mjs": "test.js",
     "spec.mjs": "test.js",
     "jest.mjs": "test.js",
-    "d.mjs": "def.js",
-    "def.mjs": "def.js",
     //#endregion
 
     //#region CJS
@@ -393,41 +392,16 @@
     "test.cjs": "test.js",
     "spec.cjs": "test.js",
     "jest.cjs": "test.js",
-    "d.cjs": "def.js",
-    "def.cjs": "def.js",
     //#endregion
 
     //#region TS
     "ts": "ts",
     "config.ts": "config.ts",
-    "map.ts": "map.ts",
     "test.ts": "test.ts",
     "spec.ts": "test.ts",
     "jest.ts": "test.ts",
     "d.ts": "def.ts",
     "def.ts": "def.ts",
-    //#endregion
-
-    //#region CTS
-    "cts": "ts",
-    "config.cts": "config.ts",
-    "map.cts": "map.ts",
-    "test.cts": "test.ts",
-    "spec.cts": "test.ts",
-    "jest.cts": "test.ts",
-    "d.cts": "def.ts",
-    "def.cts": "def.ts",
-    //#endregion
-
-    //#region MTS
-    "mts": "ts",
-    "config.mts": "config.ts",
-    "map.mts": "map.ts",
-    "test.mts": "test.ts",
-    "spec.mts": "test.ts",
-    "jest.mts": "test.ts",
-    "d.mts": "def.ts",
-    "def.mts": "def.ts",
     //#endregion
 
     //#region JSX
@@ -437,14 +411,11 @@
     "test.jsx": "test.jsx",
     "spec.jsx": "test.jsx",
     "jest.jsx": "test.jsx",
-    "d.jsx": "def.jsx",
-    "def.jsx": "def.jsx",
     //#endregion
 
     //#region TSX
     "tsx": "tsx",
     "config.tsx": "config.tsx",
-    "tsx.map": "tsx.map",
     "test.tsx": "test.tsx",
     "spec.tsx": "test.tsx",
     "jest.tsx": "test.tsx",
@@ -483,7 +454,10 @@
     //#endregion
 
     //#region Dart
-    "dart": "dart"
+    "dart": "dart",
+    "g.dart": "dart",
+    "flutter-plugins": "flutter",
+    "packages": "flutter",
     //#endregion
   },
 

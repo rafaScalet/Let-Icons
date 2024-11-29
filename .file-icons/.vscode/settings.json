@@ -48,7 +48,7 @@
     ".sh": ".bash*, .fish, .zsh",
 
     // Data
-    ".json": ", .jsonc, .sql, .xml, .csv",
+    ".json": ", .jsonc, .sql, .xml, .csv, .prisma",
 
     // Version Managers
     ".tool-versions": ".*-version, .nvmrc, .rvmrc, .sdkmanrc, .ruby-gemset",
