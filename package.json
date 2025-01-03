@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@vscode/vsce": "^3.2.1",
     "ovsx": "^0.10.0"
   }

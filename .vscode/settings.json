@@ -1,11 +1,4 @@
 {
-  "explorer.fileNesting.enabled": true,
-  "explorer.excludeGitIgnore": false,
-  "explorer.fileNesting.patterns": {
-    "*.ts": "", "*.js": "", "*.jsx": "", "*.tsx": "",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
-    ".vscodeignore": "preview.code-workspace",
-    ".tool-versions": ".git*, LICENSE*, README*, CHANGELOG*",
-    ".editorconfig": "package.json, .vscodeignore, .tool-versions"
-  }
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnSave": true
 }
