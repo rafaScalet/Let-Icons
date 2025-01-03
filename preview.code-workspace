@@ -1,12 +1,12 @@
 {
   "folders": [
     {
-      "name": "Icons",
-      "path": ".file-icons"
-    },
-    {
       "name": "Folder",
       "path": ".folder-icons"
+    },
+    {
+      "name": "Icons",
+      "path": ".file-icons"
     }
   ],
   "settings": {}
