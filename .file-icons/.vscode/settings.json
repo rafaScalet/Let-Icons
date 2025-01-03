@@ -2,18 +2,37 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     // Replacing the Default Values
-    "*.ts":"","*.js":"","*.jsx":"","*.tsx":"","tsconfig.json":"",".editorconfig": "",
+    "*.ts": "",
+    "*.js": "",
+    "*.jsx": "",
+    "*.tsx": "",
+    "tsconfig.json": "",
 
     // Javascript
-    // ".js": "*.js, .js.*",
-    ".ts": "*.ts, .ts.*", // Typescript files
-    ".cjs": "*.cjs, .cjs.*", // CommunJS files
-    ".mjs": "*.mjs, .mjs.*", // ESmodules files
-    ".jsx": "*.jsx, .jsx.*", // React javascript files
-    ".tsx": "*.tsx, .tsx.*", // React typescript files
+    ".js": ".mjs, .cjs",
+    ".js.map": ".mjs.map, .cjs.map",
+    ".config.js": ".config.mjs, .config.cjs",
+    ".test.js": ".test.mjs, .test.cjs",
+    ".spec.js": ".spec.mjs, .spec.cjs",
+    ".jest.js": ".jest.mjs, .jest.cjs",
+    ".ts": ".mts, .cts", // Typescript files
+    ".config.ts": ".config.mts, .config.cts",
+    ".d.ts": ".d.mts, .d.cts",
+    ".def.ts": ".def.mts, .def.cts",
+    ".spec.ts": ".spec.mts, .spec.cts",
+    ".test.ts": ".test.mts, .test.cts",
+    ".jest.ts": ".jest.mts, .jest.cts",
+    ".tsx": ".*.tsx",
+    ".jsx": ".*.jsx",
+    // ".cjs": "*.cjs, .cjs.*", // CommunJS files
+    // ".mjs": "*.mjs, .mjs.*", // ESmodules files
+    // ".cts": "*.cts, .cts.*", // Typescript files
+    // ".mts": "*.mts, .mts.*", // Typescript files
+    // ".jsx": "*.jsx, .jsx.*", // React javascript files
+    // ".tsx": "*.tsx, .tsx.*", // React typescript files
     "jsconfig.json": "tsconfig.json, .tsbuildinfo", // Config files
-    "package.json": "package-lock.json, pnpm-lock.yaml, yarn.lock, bun.lockb", // Project files
-    ".js": "*.js, .js.*, .ts, .cjs, .mjs, .jsx, .tsx, .vue, .component.html, jsconfig.json, package.json",
+    "package.json": "package-lock.json, pnpm-*.yaml, yarn.lock, bun.lockb", // Project files
+    // ".js": "*.js, .js.*, .cjs, .mjs, .ts, , .mts, .cts, .jsx, .tsx, .vue, jsconfig.json, package.json",
 
     // Java
     ".class": ".jmod", // Compiled class
@@ -47,8 +66,14 @@
     // Shell
     ".sh": ".bash*, .fish, .zsh",
 
-    // Data
-    ".json": ", .jsonc, .sql, .xml, .csv, .prisma",
+    // Misc
+    "misc": ".xml, .csv, .prisma, .txt, .toml",
+
+    // Json
+    ".json": ", .jsonc, .map",
+
+    // SQL
+    ".sql": ".db, .sqlite",
 
     // Version Managers
     ".tool-versions": ".*-version, .nvmrc, .rvmrc, .sdkmanrc, .ruby-gemset",
