@@ -67,7 +67,6 @@
     //#endregion
     //#region JS
     "js": { "iconPath": "files/js.svg" },
-    "def.js": { "iconPath": "files/js-def.svg" },
     "config.js": { "iconPath": "files/js-config.svg" },
     "test.js": { "iconPath": "files/js-test.svg" },
     "js.map": { "iconPath": "files/js-map.svg" },
@@ -77,21 +76,16 @@
     "def.ts": { "iconPath": "files/ts-def.svg" },
     "config.ts": { "iconPath": "files/ts-config.svg" },
     "test.ts": { "iconPath": "files/ts-test.svg" },
-    "ts.map": { "iconPath": "files/ts-map.svg" },
     //#endregion
     //#region JSX
     "jsx": { "iconPath": "files/react-js.svg" },
-    "def.jsx": { "iconPath": "files/react-js-def.svg" },
     "config.jsx": { "iconPath": "files/react-js-config.svg" },
     "test.jsx": { "iconPath": "files/react-js-test.svg" },
-    "jsx.map": { "iconPath": "files/react-js-map.svg" },
     //#endregion
     //#region TSX
     "tsx": { "iconPath": "files/react-ts.svg" },
-    "def.tsx": { "iconPath": "files/react-ts-def.svg" },
     "config.tsx": { "iconPath": "files/react-ts-config.svg" },
     "test.tsx": { "iconPath": "files/react-ts-test.svg" },
-    "tsx.map": { "iconPath": "files/react-ts-map.svg" },
     //#endregion
     //#endregion
     //#region C# / DotNet
@@ -126,8 +120,10 @@
     "node_modules": { "iconPath": "folders/node_modules.svg" },
     "folderMaven": { "iconPath": "folders/maven.svg" },
     "assets": { "iconPath": "folders/assets.svg" },
+    "shared": { "iconPath": "folders/shared.svg" },
     "app": { "iconPath": "folders/app.svg" },
     "folderPrisma": { "iconPath": "folders/folderPrisma.svg" },
+    "angular": { "iconPath": "folders/angular.svg" },
     "folderVscode": { "iconPath": "folders/folderVscode.svg" },
     "dist": { "iconPath": "folders/dist.svg" },
     "src": { "iconPath": "folders/src.svg" },
@@ -546,6 +542,7 @@
     "html": "folderHtml",
     "css": "folderCss",
     "node_modules": "node_modules",
+    ".angular": "angular",
     ".mvn": "folderMaven",
     "assets": "assets",
     "app": "app",
@@ -605,13 +602,15 @@
     "module": "module",
     "modules": "module",
     "view": "folderHtml",
-    "views": "folderHtml"
+    "views": "folderHtml",
+    "shared": "shared",
   },
   "folderNamesExpanded": {
     "maven": "folderMaven",
     "html": "folderHtml",
     "css": "folderCss",
     "node_modules": "node_modules",
+    ".angular": "angular",
     ".mvn": "folderMaven",
     "assets": "assets",
     "app": "app",
@@ -671,7 +670,8 @@
     "module": "module",
     "modules": "module",
     "view": "folderHtml",
-    "views": "folderHtml"
+    "views": "folderHtml",
+    "shared": "shared",
   },
   "languageIds": {
     "javascript": "js",
