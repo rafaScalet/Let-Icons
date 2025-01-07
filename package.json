@@ -15,26 +15,23 @@
     "type": "git",
     "url": "https://github.com/rafaScalet/Let-Icons"
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "engines": {
     "vscode": "^1.94.0"
   },
   "categories": ["Themes"],
   "scripts": {
     "package": "vsce package --no-dependencies",
-    "pub": "vsce publish && ovsx publish"
+    "pub": "pnpm run '/^pub:*/'",
+    "pub:vsce": "vsce publish",
+    "pub:ovsx": "ovsx publish"
   },
   "contributes": {
     "iconThemes": [
       {
-        "id": "let-simple-icons",
+        "id": "Let Icons",
         "label": "Let Simple Icons",
         "path": "./src/themes/simple-icon-theme.json"
-      },
-      {
-        "id": "let-fancy-icons",
-        "label": "Let Fancy Icons",
-        "path": "./src/themes/fancy-icon-theme.json"
       }
     ]
   },
