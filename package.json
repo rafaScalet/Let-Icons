@@ -6,6 +6,7 @@
   "publisher": "scalet",
   "license": "SEE LICENSE IN LICENSE.md",
   "packageManager": "pnpm@9.15.2",
+  "type": "module",
   "author": {
     "name": "Rafael Scalet",
     "email": "rafaelscalet2018@gmail.com",
@@ -24,7 +25,8 @@
     "package": "vsce package --no-dependencies",
     "pub": "pnpm run '/^pub:*/'",
     "pub:vsce": "vsce publish",
-    "pub:ovsx": "ovsx publish"
+    "pub:ovsx": "ovsx publish",
+    "start": "node src/app/index.js"
   },
   "contributes": {
     "iconThemes": [

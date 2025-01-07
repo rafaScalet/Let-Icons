@@ -9,5 +9,28 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     ".folder-icons/**/.gitkeep": true
-  }
+  },
+  "cSpell.words": [
+    "dockercompose",
+    "dotm",
+    "drawio",
+    "gemset",
+    "gradlew",
+    "icns",
+    "ipynb",
+    "jmod",
+    "mvnw",
+    "npmignore",
+    "pipfile",
+    "pyproject",
+    "rvmrc",
+    "sdkmanrc",
+    "sqlite",
+    "venv",
+    "vscodeignore",
+    "vsix",
+    "webm",
+    "webp",
+    "xlsb"
+  ]
 }

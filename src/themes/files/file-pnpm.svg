@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" width="15" height="15">
+	<title>Novo Projeto</title>
+	<style>
+		.s0 { fill: #8080a0 } 
+		.s1 { fill: #f5aa52 } 
+	</style>
+	<g id="Layer 1">
+		<path id="Forma 1" fill-rule="evenodd" class="s0" d="m3 10h1c0.6 0 1 0.4 1 1v1c0 0.6-0.4 1-1 1h-1c-0.6 0-1-0.4-1-1v-1c0-0.6 0.4-1 1-1z"/>
+		<path id="Forma 1 copy" fill-rule="evenodd" class="s0" d="m7 10h1c0.6 0 1 0.4 1 1v1c0 0.6-0.4 1-1 1h-1c-0.6 0-1-0.4-1-1v-1c0-0.6 0.4-1 1-1z"/>
+		<path id="Forma 1 copy 2" fill-rule="evenodd" class="s0" d="m11 10h1c0.6 0 1 0.4 1 1v1c0 0.6-0.4 1-1 1h-1c-0.6 0-1-0.4-1-1v-1c0-0.6 0.4-1 1-1z"/>
+		<path id="Forma 1 copy 3" fill-rule="evenodd" class="s0" d="m7 6h1c0.6 0 1 0.4 1 1v1c0 0.6-0.4 1-1 1h-1c-0.6 0-1-0.4-1-1v-1c0-0.6 0.4-1 1-1z"/>
+		<path id="Forma 1 copy 4" fill-rule="evenodd" class="s1" d="m7 2h1c0.6 0 1 0.4 1 1v1c0 0.6-0.4 1-1 1h-1c-0.6 0-1-0.4-1-1v-1c0-0.6 0.4-1 1-1z"/>
+		<path id="Forma 1 copy 5" fill-rule="evenodd" class="s1" d="m3 2h1c0.6 0 1 0.4 1 1v1c0 0.6-0.4 1-1 1h-1c-0.6 0-1-0.4-1-1v-1c0-0.6 0.4-1 1-1z"/>
+		<path id="Forma 1 copy 6" fill-rule="evenodd" class="s1" d="m11 2h1c0.6 0 1 0.4 1 1v1c0 0.6-0.4 1-1 1h-1c-0.6 0-1-0.4-1-1v-1c0-0.6 0.4-1 1-1z"/>
+		<path id="Forma 1 copy 7" fill-rule="evenodd" class="s1" d="m11 6h1c0.6 0 1 0.4 1 1v1c0 0.6-0.4 1-1 1h-1c-0.6 0-1-0.4-1-1v-1c0-0.6 0.4-1 1-1z"/>
+	</g>
+</svg>
