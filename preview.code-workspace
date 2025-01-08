@@ -2,11 +2,11 @@
   "folders": [
     {
       "name": "Folder",
-      "path": ".folder-icons"
+      "path": ".templates/.folder"
     },
     {
       "name": "Icons",
-      "path": ".file-icons"
+      "path": ".templates/.file"
     }
   ],
   "settings": {}
