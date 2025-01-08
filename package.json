@@ -22,18 +22,19 @@
   },
   "categories": ["Themes"],
   "scripts": {
+    "lint": "biome check --fix",
     "package": "vsce package --no-dependencies",
     "pub": "pnpm run '/^pub:*/'",
     "pub:vsce": "vsce publish",
     "pub:ovsx": "ovsx publish",
-    "start": "node src/app/index.js"
+    "start": "node --watch src/app/index.js"
   },
   "contributes": {
     "iconThemes": [
       {
         "id": "Let Icons",
         "label": "Let Simple Icons",
-        "path": "./src/themes/simple-icon-theme.json"
+        "path": "./src/simple-icon-theme.json"
       }
     ]
   },

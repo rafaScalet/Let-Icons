@@ -1,10 +1,19 @@
+import { file } from './file-definitions.js';
+import { folder } from './folder-definitions.js';
+import { languageIds } from './language-ids.js';
 import { filePathGenerator } from './utils/file-path-generator.js';
-import { folder } from './folder.js';
-import { file } from './file.js';
 
-const files = filePathGenerator('file', file)
-const folders = filePathGenerator('folder', folder)
+const files = filePathGenerator('file', file);
+const folders = filePathGenerator('folder', folder);
 
-const iconDefinitions = { ...files, ...folders}
+const iconDefinitions = { ...files, ...folders };
 
-export const data = { iconDefinitions };
+export const data = {
+  file: 'file-icon',
+  folder: 'folder-icon',
+  folderExpanded: 'folder-icon',
+  rootFolder: 'folder-root',
+  rootFolderExpanded: 'folder-root',
+  iconDefinitions,
+  languageIds,
+};

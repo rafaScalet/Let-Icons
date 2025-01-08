@@ -2,4 +2,6 @@
 
 !package.json
 !*.md
-!src/
+!src/assets
+!src/icons
+!src/**/*-theme.json
