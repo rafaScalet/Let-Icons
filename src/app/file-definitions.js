@@ -1,3 +1,5 @@
+import { filePathGenerator } from './utils/index.js';
+
 export const file = [
   'audio',
   'changelog',
@@ -68,3 +70,5 @@ export const file = [
   'xml',
   'yaml',
 ];
+
+export const files = filePathGenerator('file', file);

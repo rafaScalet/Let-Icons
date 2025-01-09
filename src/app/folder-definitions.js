@@ -1,3 +1,5 @@
+import { filePathGenerator } from './utils/index.js';
+
 export const folder = [
   'angular',
   'app',
@@ -41,3 +43,5 @@ export const folder = [
   'util',
   'vscode',
 ];
+
+export const folders = filePathGenerator('folder', folder);
