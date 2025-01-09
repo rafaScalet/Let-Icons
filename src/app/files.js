@@ -1,8 +1,6 @@
-import { splitFilesData } from './utils/split-files-data.js';
-import { filePathGenerator } from './utils/file-path-generator.js';
-import { generateRealObject } from './utils/generate-real-object.js';
+import { createFileIconsDefinition } from './utils/create-file-icons-definition.js';
 
-const filesTemplates = {
+export const file = createFileIconsDefinition({
   'audio': { ext: ['mp3', 'ogg', 'wav'], name: [], languageID: [] },
   'changelog': {
     ext: [],
@@ -73,7 +71,11 @@ const filesTemplates = {
     languageID: [],
   },
   'env': { ext: ['venv'], name: [], languageID: ['dotenv'] },
-  'flutter': { ext: ['flutter-plugins', 'packages'], name: [], languageID: [] },
+  'flutter': {
+    ext: ['flutter-plugins', 'packages'],
+    name: [],
+    languageID: [],
+  },
   'git': {
     ext: ['gitignore', 'gitattributes', 'gitkeep'],
     name: [],
@@ -116,7 +118,11 @@ const filesTemplates = {
     name: [],
     languageID: [],
   },
-  'js-map': { ext: ['js.map', 'cjs.map', 'mjs.map'], name: [], languageID: [] },
+  'js-map': {
+    ext: ['js.map', 'cjs.map', 'mjs.map'],
+    name: [],
+    languageID: [],
+  },
   'js-test': {
     ext: [
       'jest.js',
@@ -268,7 +274,11 @@ const filesTemplates = {
     languageID: [],
   },
   'ts': { ext: [], name: [], languageID: ['typescript'] },
-  'tsconfig': { ext: ['tsbuildinfo'], name: ['tsconfig.json'], languageID: [] },
+  'tsconfig': {
+    ext: ['tsbuildinfo'],
+    name: ['tsconfig.json'],
+    languageID: [],
+  },
   'video': {
     ext: [
       'avi',
@@ -299,18 +309,4 @@ const filesTemplates = {
   'vue': { ext: ['vue'], name: [], languageID: [] },
   'xml': { ext: [], name: [], languageID: ['xml', 'xsl'] },
   'yaml': { ext: [], name: [], languageID: ['yaml'] },
-};
-
-const { fileExtensionsTemplate, fileNamesTemplate, languageIdsTemplate } =
-  splitFilesData(filesTemplates);
-
-const files = Object.keys(filesTemplates);
-
-export const fileDefinition = filePathGenerator('file', files);
-
-export const languageIds = generateRealObject(languageIdsTemplate, 'file');
-export const fileNames = generateRealObject(fileNamesTemplate, 'file');
-export const fileExtensions = generateRealObject(
-  fileExtensionsTemplate,
-  'file',
-);
+});

@@ -1,16 +1,16 @@
 export function splitFilesData(obj) {
-  const fileExtensionsTemplate = {};
-  const fileNamesTemplate = {};
-  const languageIdsTemplate = {};
+  const ExtTemplate = {};
+  const NamesTemplate = {};
+  const langTemplate = {};
 
   for (const key in obj) {
     if (Object.prototype.hasOwnProperty.call(obj, key)) {
       const { ext, name, languageID } = obj[key];
-      fileExtensionsTemplate[key] = ext;
-      fileNamesTemplate[key] = name;
-      languageIdsTemplate[key] = languageID
+      ExtTemplate[key] = ext;
+      NamesTemplate[key] = name;
+      langTemplate[key] = languageID
     }
   }
 
-  return { fileExtensionsTemplate, fileNamesTemplate, languageIdsTemplate };
+  return { ExtTemplate, NamesTemplate, langTemplate };
 }
