@@ -1,4 +1,6 @@
-export const folderNames = {
+import { generateRealObject } from './utils/generate-real-object.js';
+
+const folderNamesTemplates = {
   angular: ['angular'],
   app: ['app', 'apps', 'main'],
   assets: ['assets'],
@@ -48,3 +50,5 @@ export const folderNames = {
   util: ['util', 'utils'],
   vscode: ['vscode'],
 };
+
+export const folderNames = generateRealObject(folderNamesTemplates, 'folder');

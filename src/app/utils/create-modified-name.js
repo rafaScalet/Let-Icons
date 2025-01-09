@@ -10,3 +10,13 @@ export function createModifiedFolderName(obj) {
 
   return result;
 }
+
+export function creteModifiedFileName(obj) {
+  const result = [];
+
+  for (const [key, value] of Object.entries(obj)) {
+    result.push({ [`${key}`]: `file-${value}` });
+  }
+
+  return result;
+}

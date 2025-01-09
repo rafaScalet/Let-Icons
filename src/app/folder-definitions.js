@@ -1,4 +1,4 @@
-import { filePathGenerator } from './utils/index.js';
+import { filePathGenerator } from './utils/file-path-generator.js';
 
 export const folder = [
   'angular',

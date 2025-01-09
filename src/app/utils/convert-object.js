@@ -1,4 +1,4 @@
-export function convertObjectFolder(input) {
+export function convertObject(input) {
   const result = {};
 
   for (const [key, values] of Object.entries(input)) {

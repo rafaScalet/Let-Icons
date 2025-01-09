@@ -115,7 +115,14 @@
     "folder-util": { "iconPath": "icons/folder-util.svg" },
     "folder-vscode": { "iconPath": "icons/folder-vscode.svg" }
   },
-  "fileExtensions": {},
+  "fileExtensions": {
+    "config.js": "file-js-config",
+    "config.mjs": "file-js-config",
+    "config.cjs": "file-js-config",
+    "config.ts": "file-ts-config",
+    "config.mts": "file-ts-config",
+    "config.cts": "file-ts-config"
+  },
   "fileNames": {},
   "folderNames": {
     "angular": "folder-angular",

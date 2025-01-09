@@ -22,12 +22,13 @@
   },
   "categories": ["Themes"],
   "scripts": {
+    "dev": "node --watch src/app/index.js",
     "lint": "biome check --fix",
     "package": "vsce package --no-dependencies",
     "pub": "pnpm run '/^pub:*/'",
     "pub:vsce": "vsce publish",
     "pub:ovsx": "ovsx publish",
-    "start": "node --watch src/app/index.js"
+    "start": "node src/app/index.js"
   },
   "contributes": {
     "iconThemes": [
