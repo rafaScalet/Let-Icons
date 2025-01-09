@@ -1,7 +1,7 @@
 import { generateRealObject } from './utils/generate-real-object.js';
 import { filePathGenerator } from './utils/file-path-generator.js';
 
-const folderNamesTemplates = {
+const foldersTemplates = {
   angular: ['angular'],
   app: ['app', 'apps', 'main'],
   assets: ['assets'],
@@ -56,10 +56,12 @@ const folderNamesTemplates = {
   vscode: ['vscode'],
 };
 
-const folders = Object.keys(folderNamesTemplates);
+const folders = Object.keys(foldersTemplates);
 
 export const folderDefinition = filePathGenerator('folder', folders);
 
-export const folderNames = generateRealObject(folderNamesTemplates, 'folder');
+export const folderNames = generateRealObject(foldersTemplates, 'folder');
 
 export const folderNamesExpanded = folderNames;
+
+// console.log(foldersTemplates);
