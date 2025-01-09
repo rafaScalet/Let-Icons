@@ -25,7 +25,7 @@
     "dev": "node --watch src/app/index.js",
     "lint": "biome check --fix",
     "package": "vsce package --no-dependencies",
-    "pub": "pnpm run '/^pub:*/'",
+    "pub": "pnpm run --parallel '/^pub:*/'",
     "pub:vsce": "vsce publish",
     "pub:ovsx": "ovsx publish",
     "start": "node src/app/index.js"

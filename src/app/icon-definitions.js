@@ -1,4 +1,4 @@
 import { files } from './file-definitions.js';
-import { folders } from './folder-definitions.js';
+import { folderDefinition } from './folders.js';
 
-export const iconDefinitions = { ...files, ...folders };
+export const iconDefinitions = { ...files, ...folderDefinition };
