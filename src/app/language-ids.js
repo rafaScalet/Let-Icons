@@ -1,4 +1,6 @@
 export const languageIds = {
+  plaintext: 'file-text',
+  drawio: 'file-diagram',
   javascript: 'file-js',
   java: 'file-java',
   prisma: 'file-prisma',
@@ -11,7 +13,6 @@ export const languageIds = {
   dart: 'file-dart',
   'git-commit': 'file-git',
   'git-rebase': 'file-git',
-  ignore: 'file-git',
   html: 'file-html',
   javascriptreact: 'file-react-js',
   json: 'file-json',

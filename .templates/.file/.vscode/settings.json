@@ -70,7 +70,7 @@
     "misc": ".xml, .csv, .prisma, .txt, .toml",
 
     // Json
-    ".json": ", .jsonc, .map",
+    ".json": ", .jsonc, .jsonl, .map, .ipynb",
 
     // SQL
     ".sql": ".db, .sqlite",
@@ -118,7 +118,7 @@
     "readme": "readme.*",
 
     // Markdown
-    ".md": ".mdx, .rst, .ipynb",
+    ".md": ".mdx, .rst",
 
     // Environment
     ".env": ".venv",
