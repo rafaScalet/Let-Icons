@@ -1,7 +1,6 @@
-import { generateRealObject } from './utils/generate-real-object.js';
-import { filePathGenerator } from './utils/file-path-generator.js';
+import { createFolderIconsDefinition } from './utils/create-folder-icons-definition.js';
 
-const foldersTemplates = {
+export const folder = createFolderIconsDefinition({
   angular: ['angular'],
   app: ['app', 'apps', 'main'],
   assets: ['assets'],
@@ -54,14 +53,4 @@ const foldersTemplates = {
   util: ['util', 'utils'],
   vector: ['vector', 'vectors', 'svg', 'svgs'],
   vscode: ['vscode'],
-};
-
-const folders = Object.keys(foldersTemplates);
-
-export const folderDefinition = filePathGenerator('folder', folders);
-
-export const folderNames = generateRealObject(foldersTemplates, 'folder');
-
-export const folderNamesExpanded = folderNames;
-
-// console.log(foldersTemplates);
+});

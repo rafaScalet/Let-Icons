@@ -1,6 +1,6 @@
-import { splitFilesData } from './split-files-data.js'
-import { filePathGenerator } from './file-path-generator.js'
-import { generateRealObject } from './generate-real-object.js'
+import { filePathGenerator } from './file-path-generator.js';
+import { generateRealObject } from './generate-real-object.js';
+import { splitFilesData } from './split-files-data.js';
 
 export function createFileIconsDefinition(obj) {
   const { ExtTemplate, NamesTemplate, langTemplate } = splitFilesData(obj);

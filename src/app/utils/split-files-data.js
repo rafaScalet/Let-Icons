@@ -8,7 +8,7 @@ export function splitFilesData(obj) {
       const { ext, name, languageID } = obj[key];
       ExtTemplate[key] = ext;
       NamesTemplate[key] = name;
-      langTemplate[key] = languageID
+      langTemplate[key] = languageID;
     }
   }
 

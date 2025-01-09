@@ -1,10 +1,11 @@
 import { writeFile } from 'node:fs';
 import { resolve } from 'node:path';
 import { file } from './files.js';
-import { folderNames, folderNamesExpanded } from './folders.js';
-import { folderDefinition } from './folders.js';
+import { folder } from './folders.js';
 
 const { fileDefinition, languageIds, fileNames, fileExtensions } = file;
+
+const { folderDefinition, folderNames, folderNamesExpanded } = folder;
 
 const iconDefinitions = { ...fileDefinition, ...folderDefinition };
 
