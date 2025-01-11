@@ -1,12 +1,20 @@
 import { createFileIconsDefinition } from './utils/create-file-icons-definition.js';
 
-export const file = createFileIconsDefinition({
+const file = createFileIconsDefinition({
+  'angular': {
+    ext: [],
+    name: ['angular.json', '.angulardoc.json'],
+    languageID: [],
+  },
   'audio': { ext: ['mp3', 'ogg', 'wav'], name: [], languageID: [] },
+  'bun': { ext: [], name: ['bun.lockb'], languageID: [] },
+  'c': { ext: [], name: [], languageID: ['c'] },
   'changelog': {
     ext: [],
     name: ['changelog', 'changelog.md', 'changelog.txt'],
     languageID: [],
   },
+  'coffee-script': { ext: [], name: [], languageID: ['coffeescript'] },
   'compact': {
     ext: [
       '7z',
@@ -35,22 +43,24 @@ export const file = createFileIconsDefinition({
       'zst',
     ],
     name: [],
-    languageID: [],
+    languageID: ['code-text-binary'],
   },
   'config': {
-    ext: ['cfg', 'config', 'editorconfig', 'ini', 'lock'],
+    ext: ['cfg', 'config', 'editorconfig', 'ini'],
     name: [],
     languageID: ['ini', 'makefile', 'ignore'],
   },
+  'cpp': { ext: [], name: [], languageID: ['cpp'] },
   'cs': { ext: ['cs'], name: [], languageID: ['csharp'] },
   'csproj': { ext: ['csproj'], name: [], languageID: [] },
   'css': { ext: [], name: [], languageID: ['css'] },
   'dart': { ext: [], name: [], languageID: ['dart'] },
   'diagram': {
-    ext: ['drawio.png', 'drawio.svg', 'uml'],
+    ext: ['dio', 'drawio', 'drawio.png', 'drawio.svg', 'uml'],
     name: [],
     languageID: ['drawio'],
   },
+  'diff': { ext: [], name: [], languageID: ['diff'] },
   'docker-compose': { ext: [], name: [], languageID: ['dockercompose'] },
   'docker-ignore': { ext: ['dockerignore'], name: [], languageID: [] },
   'docker': { ext: [], name: [], languageID: ['dockerfile'] },
@@ -70,7 +80,7 @@ export const file = createFileIconsDefinition({
     name: [],
     languageID: [],
   },
-  'env': { ext: ['venv'], name: [], languageID: ['dotenv'] },
+  'env': { ext: ['env', 'venv'], name: [], languageID: ['dotenv'] },
   'flutter': {
     ext: ['flutter-plugins', 'packages'],
     name: [],
@@ -150,6 +160,8 @@ export const file = createFileIconsDefinition({
     name: ['license', 'license.md', 'license.txt'],
     languageID: [],
   },
+  'lock': { ext: ['lock'], name: [], languageID: [] },
+  'log': { ext: [], name: [], languageID: ['log'] },
   'manifest': { ext: ['mf'], name: ['manifest'], languageID: [] },
   'maven': {
     ext: [],
@@ -159,6 +171,8 @@ export const file = createFileIconsDefinition({
   'md': { ext: ['mdx', 'rst'], name: [], languageID: ['markdown'] },
   'node': { ext: [], name: ['package.json'], languageID: [] },
   'npm': { ext: ['npmignore'], name: ['package-lock.json'], languageID: [] },
+  'objective-c': { ext: [], name: [], languageID: ['objective-c'] },
+  'objective-cpp': { ext: [], name: [], languageID: ['objective-cpp'] },
   'php': { ext: [], name: [], languageID: ['php'] },
   'pnpm': {
     ext: [],
@@ -230,7 +244,7 @@ export const file = createFileIconsDefinition({
     languageID: [],
   },
   'text': { ext: [], name: [], languageID: ['plaintext'] },
-  'toml': { ext: [], name: [], languageID: ['toml'] },
+  'toml': { ext: ['toml'], name: [], languageID: ['toml'] },
   'tool': {
     ext: [
       'dotnet-version',
@@ -245,7 +259,7 @@ export const file = createFileIconsDefinition({
       'sdkmanrc',
       'tool-versions',
     ],
-    name: [],
+    name: ['mise.toml', 'mise.dev.toml', 'mise.prod.toml'],
     languageID: [],
   },
   'ts-config': {
@@ -276,7 +290,12 @@ export const file = createFileIconsDefinition({
   'ts': { ext: [], name: [], languageID: ['typescript'] },
   'tsconfig': {
     ext: ['tsbuildinfo'],
-    name: ['tsconfig.json'],
+    name: [
+      'tsconfig.json',
+      'tsconfig.app.json',
+      'tsconfig.spec.json',
+      'tsconfig.node.json',
+    ],
     languageID: [],
   },
   'video': {
@@ -295,6 +314,7 @@ export const file = createFileIconsDefinition({
     name: [],
     languageID: [],
   },
+  'visual-basic': { ext: [], name: [], languageID: ['vb'] },
   'vscode': {
     ext: ['vscodeignore', 'code-workspace'],
     name: [
@@ -304,9 +324,12 @@ export const file = createFileIconsDefinition({
       '.vscode/keybindings.json',
       '.vscode/extensions.json',
     ],
-    languageID: [],
+    languageID: ['snippets'],
   },
   'vue': { ext: ['vue'], name: [], languageID: [] },
   'xml': { ext: [], name: [], languageID: ['xml', 'xsl'] },
   'yaml': { ext: [], name: [], languageID: ['yaml'] },
+  'yarn': { ext: [], name: ['yarn.lock'], languageID: [] },
 });
+
+export const { fileDefinition, fileExtensions, fileNames, languageIds } = file;

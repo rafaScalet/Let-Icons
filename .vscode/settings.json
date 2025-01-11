@@ -11,6 +11,7 @@
     ".folder-icons/**/.gitkeep": true
   },
   "cSpell.words": [
+    "angulardoc",
     "dockercompose",
     "dotm",
     "drawio",

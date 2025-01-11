@@ -1,6 +1,6 @@
 import { createFolderIconsDefinition } from './utils/create-folder-icons-definition.js';
 
-export const folder = createFolderIconsDefinition({
+const folder = createFolderIconsDefinition({
   angular: ['angular'],
   app: ['app', 'apps', 'main'],
   assets: ['assets'],
@@ -36,6 +36,7 @@ export const folder = createFolderIconsDefinition({
   ],
   module: ['module', 'modules'],
   node_modules: ['node_modules'],
+  obsidian: ['obsidian'],
   package: ['package', 'packages'],
   prisma: ['prisma'],
   repository: ['repository', 'repositories'],
@@ -54,3 +55,5 @@ export const folder = createFolderIconsDefinition({
   vector: ['vector', 'vectors', 'svg', 'svgs'],
   vscode: ['vscode'],
 });
+
+export const { folderDefinition, folderNames, folderNamesExpanded } = folder;
