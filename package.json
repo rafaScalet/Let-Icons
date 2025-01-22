@@ -20,19 +20,22 @@
   "engines": {
     "vscode": "^1.94.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
   "scripts": {
-    "dev": "node --watch src/app/index.js",
     "lint": "pnpm run --parallel '/^lint:*/'",
     "lint:biome": "biome check --fix",
     "lint:svgo": "svgo -f src/icons",
-    "package": "vsce package --no-dependencies",
     "pub": "pnpm run --parallel '/^pub:*/'",
     "pub:vsce": "vsce publish",
     "pub:ovsx": "ovsx publish",
-    "start": "node src/app/index.js"
+    "prepare": "husky",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": "pnpm lint:biome",
+    "*.ts": "pnpm lint:biome",
+    "*.json": "pnpm lint:biome",
+    "*.svg": "pnpm lint:svgo"
   },
   "contributes": {
     "iconThemes": [
@@ -46,10 +49,9 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@vscode/vsce": "^3.2.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.1",
     "ovsx": "^0.10.0",
     "svgo": "^3.3.2"
-  },
-  "dependencies": {
-    "vsci-maker": "^0.0.2"
   }
 }
