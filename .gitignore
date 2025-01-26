@@ -1,4 +1,4 @@
 node_modules
 *.vsix
 
-!.folder-icons/node_modules
+src/*.json
