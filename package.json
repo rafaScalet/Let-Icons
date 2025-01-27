@@ -30,13 +30,14 @@
     "pub:vsce": "vsce publish",
     "pub:ovsx": "ovsx publish",
     "prepare": "husky",
-    "prepublish": "pnpm build",
+    "prepub": "pnpm build",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
     "*.js": "pnpm lint:biome",
     "*.ts": "pnpm lint:biome",
-    "*.json": "pnpm lint:biome"
+    "*.json": "pnpm lint:biome",
+    "*.svg": "pnpm lint:svgo"
   },
   "contributes": {
     "iconThemes": [
