@@ -16,26 +16,27 @@
     "type": "git",
     "url": "https://github.com/rafaScalet/Let-Icons"
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "engines": {
     "vscode": "^1.94.0"
   },
   "categories": ["Themes"],
   "scripts": {
+    "build": "tsx src/app/index.ts",
     "lint": "pnpm run --parallel '/^lint:*/'",
     "lint:biome": "biome check --fix",
-    "lint:svgo": "svgo -f src/icons",
+    "lint:svgo": "svgo -f src/icons/",
     "pub": "pnpm run --parallel '/^pub:*/'",
     "pub:vsce": "vsce publish",
     "pub:ovsx": "ovsx publish",
     "prepare": "husky",
+    "prepublish": "pnpm build",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
     "*.js": "pnpm lint:biome",
     "*.ts": "pnpm lint:biome",
-    "*.json": "pnpm lint:biome",
-    "*.svg": "pnpm lint:svgo"
+    "*.json": "pnpm lint:biome"
   },
   "contributes": {
     "iconThemes": [

@@ -154,7 +154,7 @@ export const files: FileDefinitions = {
   'shell': { langId: ['shellscript'] },
   'sln': { ext: ['sln'] },
   'sql': { ext: ['db', 'sqlite'], langId: ['sql'] },
-  'svg': { ext: ['svg', 'ai', 'eps', 'cdr', 'wmf', 'dxf'] },
+  'svg': { ext: ['svg', 'ai', 'eps', 'cdr', 'wmf', 'dxf'], langId: ['svg'] },
   'table': {
     ext: [
       'csv',
@@ -211,6 +211,7 @@ export const files: FileDefinitions = {
       'tsconfig.app.json',
       'tsconfig.spec.json',
       'tsconfig.node.json',
+      'tsconfig.build.json',
     ],
   },
   'video': {
