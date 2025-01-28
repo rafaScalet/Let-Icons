@@ -36,8 +36,7 @@
   "lint-staged": {
     "*.js": "pnpm lint:biome",
     "*.ts": "pnpm lint:biome",
-    "*.json": "pnpm lint:biome",
-    "*.svg": "pnpm lint:svgo"
+    "*.json": "pnpm lint:biome"
   },
   "contributes": {
     "iconThemes": [
