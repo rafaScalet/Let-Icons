@@ -9,7 +9,7 @@ export const folders: FolderDefinitions = {
   client: ['client', 'frontend'],
   cmd: ['cmd', 'shell', 'bash', 'fish', 'zsh', 'cli', 'ci', 'workflow'],
   component: ['component'],
-  config: ['config', 'configuration', 'husky', 'github', 'gitlab'],
+  config: ['config', 'configuration', 'husky'],
   controller: ['controller', 'resource'],
   css: ['css', 'style'],
   database: [
@@ -52,7 +52,9 @@ export const folders: FolderDefinitions = {
   obsidian: ['obsidian'],
   package: ['package', 'pack'],
   prisma: ['prisma'],
+  private: ['private'],
   python: ['python', 'pycache'],
+  remote: ['remote', 'github', 'gitlab'],
   repository: ['repository', 'repo'],
   route: ['route'],
   sample: ['sample', 'example', 'preview'],
