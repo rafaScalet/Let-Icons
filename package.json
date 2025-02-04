@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/rafaScalet/Let-Icons"
   },
-  "version": "1.0.10",
+  "version": "2.0.0",
   "engines": {
     "vscode": "^1.94.0"
   },
@@ -41,22 +41,22 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "Let Icons",
-        "label": "Let Simple Icons",
-        "path": "./src/simple-icon-theme.json"
+        "id": "let-icons",
+        "label": "Let Icons",
+        "path": "./src/let-icon.json"
       }
     ]
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@types/node": "^22.10.10",
-    "@vscode/vsce": "^3.2.1",
+    "@types/node": "^22.13.0",
+    "@vscode/vsce": "^3.2.2",
     "husky": "^9.1.7",
-    "lint-staged": "^15.4.1",
-    "ovsx": "^0.10.0",
+    "lint-staged": "^15.4.3",
+    "ovsx": "^0.10.1",
     "svgo": "^3.3.2",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3",
-    "vsc-icon-maker": "^1.0.1"
+    "vsc-icon-maker": "^2.0.0"
   }
 }

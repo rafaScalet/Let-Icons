@@ -4,7 +4,7 @@ import { files } from './files';
 import { folders } from './folders';
 
 createIconTheme({
-  filePath: resolve('src', 'simple-icon-theme.json'),
+  filePath: resolve('src', 'let-icon.json'),
   defaultIcons: {
     file: 'icon',
     folder: 'icon',
