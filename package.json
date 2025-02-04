@@ -16,13 +16,14 @@
     "type": "git",
     "url": "https://github.com/rafaScalet/Let-Icons"
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "engines": {
     "vscode": "^1.94.0"
   },
   "categories": ["Themes"],
   "scripts": {
     "build": "tsx src/app/index.ts",
+    "build:dev": "tsx watch src/app/index.ts",
     "lint": "pnpm run --parallel '/^lint:*/'",
     "lint:biome": "biome check --fix",
     "lint:svgo": "svgo -f src/icons/",
