@@ -4,4 +4,4 @@
 !*.md
 !src/assets
 !src/icons
-!src/**/*-theme.json
+!src/**/let-icon.json
