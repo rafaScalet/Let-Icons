@@ -117,6 +117,7 @@ export const files: FileDefinitions = {
   'jsconfig': { name: ['jsconfig.json'] },
   'json': { ext: ['map'], langId: ['json', 'jsonc', 'jsonl'] },
   'julia': { langId: ['julia', 'juliamarkdown'] },
+  'latex': { langId: ['latex', 'tex'] },
   'license': { name: ['license', 'license.md', 'license.txt'] },
   'lock': { ext: ['lock'] },
   'log': { langId: ['log'] },
