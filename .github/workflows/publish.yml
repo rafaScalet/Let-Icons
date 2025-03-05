@@ -1,0 +1,32 @@
+name: Publish on VSCode Marketplace and Open VSX Registry
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  publish:
+    name: Publish Extension
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install tools
+        uses: jdx/mise-action@v2
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Install VSCE and OVSX
+        run: pnpm run build
+
+      - name: Publish to Visual Studio Marketplace
+        run: pnpm vsce publish -p ${{ secrets.VSCE_TOKEN }}
+
+      - name: Publish to Open VSX Registry
+        run: pnpm ovsx publish -p ${{ secrets.OVSX_TOKEN }}
