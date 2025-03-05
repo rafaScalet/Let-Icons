@@ -1,6 +1,6 @@
 [tools]
 node = "lts-iron"
-pnpm = "latest"
+pnpm = "9"
 
 [env]
 

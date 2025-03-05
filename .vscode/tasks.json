@@ -3,7 +3,7 @@
   "tasks": [
     {
       "type": "npm",
-      "script": "dev",
+      "script": "build:dev",
       "label": "dev",
       "icon": { "id": "debug-stackframe" },
       "options": {
@@ -43,7 +43,7 @@
     },
     {
       "type": "npm",
-      "script": "start",
+      "script": "build",
       "label": "start",
       "icon": { "id": "run" },
       "options": {

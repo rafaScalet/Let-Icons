@@ -158,7 +158,10 @@ export const files: FileDefinitions = {
   'ruby': { langId: ['ruby'] },
   'rust': { langId: ['rust'] },
   'scss': { langId: ['scss'] },
-  'shell': { langId: ['shellscript'] },
+  'shell': {
+    name: ['fish_plugins', 'fish_variables'],
+    langId: ['shellscript'],
+  },
   'sln': { ext: ['sln'] },
   'sql': { ext: ['db', 'sqlite'], langId: ['sql'] },
   'svg': { ext: ['svg', 'ai', 'eps', 'cdr', 'wmf', 'dxf'], langId: ['svg'] },
