@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - package.json
 
   workflow_dispatch:
 
@@ -22,11 +24,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Install VSCE and OVSX
+      - name: Generate the json file
         run: pnpm run build
 
       - name: Publish to Visual Studio Marketplace
-        run: pnpm vsce publish -p ${{ secrets.VSCE_TOKEN }}
+        run: pnpm exec vsce publish -p ${{ secrets.VSCE_TOKEN }}
 
       - name: Publish to Open VSX Registry
-        run: pnpm ovsx publish -p ${{ secrets.OVSX_TOKEN }}
+        run: pnpm exec ovsx publish -p ${{ secrets.OVSX_TOKEN }}
