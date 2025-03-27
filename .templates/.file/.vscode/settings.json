@@ -67,7 +67,7 @@
     ".sh": ".bash*, .fish, .zsh",
 
     // Misc
-    "misc": ".xml, .csv, .prisma, .txt, .toml",
+    "misc": ".xml, .csv, .prisma, .txt, .toml, .log, .diff",
 
     // Json
     ".json": ", .jsonc, .jsonl, .map, .ipynb",
@@ -133,9 +133,12 @@
     ".http": ".rest, .web, .rc, .bru",
 
     // Config
-    ".config": ".editorconfig, .cfg, .ini, .lock",
+    ".conf": ".editorconfig, .cfg, .ini, .lock",
 
     // VsCode
-    ".vscodeignore": ".code-workspace"
+    ".vscodeignore": ".code-workspace",
+
+    // C plus plus
+    ".cpp": ".ino"
   }
 }

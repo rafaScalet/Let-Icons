@@ -37,10 +37,9 @@ export const files: FileDefinitions = {
     langId: ['code-text-binary'],
   },
   'config': {
-    ext: ['cfg', 'config', 'editorconfig', 'ini'],
-    langId: ['ini', 'makefile', 'ignore'],
+    langId: ['ini', 'makefile', 'ignore', 'editorconfig'],
   },
-  'cpp': { langId: ['cpp'] },
+  'cpp': { langId: ['cpp', 'cuda-cpp'] },
   'cs': { ext: ['cs'], langId: ['csharp'] },
   'csproj': { ext: ['csproj'] },
   'css': { langId: ['css'] },
@@ -77,6 +76,7 @@ export const files: FileDefinitions = {
   'gradle': {
     ext: ['gradle'],
     name: ['gradlew', 'gradlew.bat', 'gradlew.sh'],
+    langId: ['gradle-kotlin-dsl'],
   },
   'html': { langId: ['html'] },
   'http': { ext: ['bru', 'http', 'rc', 'rest', 'web'] },
@@ -137,7 +137,7 @@ export const files: FileDefinitions = {
     ext: ['key', 'odp', 'otp', 'pot', 'potx', 'pps', 'ppsx', 'ppt', 'pptx'],
   },
   'prisma': { ext: ['prisma'], langId: ['prisma'] },
-  'properties': { langId: ['properties'] },
+  'properties': { langId: ['properties', 'java-properties'] },
   'python': {
     name: [
       'pipfile',
@@ -146,7 +146,7 @@ export const files: FileDefinitions = {
       'pyproject.toml',
       'requirements.txt',
     ],
-    langId: ['python'],
+    langId: ['python', 'jinja', 'pip-requirements'],
   },
   'react-js-config': { ext: ['config.jsx'] },
   'react-js-test': { ext: ['jest.jsx', 'spec.jsx', 'test.jsx'] },
